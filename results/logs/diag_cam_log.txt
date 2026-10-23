@@ -1,0 +1,92 @@
+[calcul] cuda (NVIDIA GeForce GTX 1650)
+[donnees] 78005 images, 441 runs, chargees en 32 s
+[graine 0] 178 runs d'entrainement
+    supervise 1 image(s) ep  1 : perte 0.8534  (3 s/epoque)
+    supervise 1 image(s) ep 20 : perte 0.0952  (3 s/epoque)
+    supervise 3 image(s) ep  1 : perte 0.8346  (3 s/epoque)
+    supervise 3 image(s) ep 20 : perte 0.0574  (3 s/epoque)
+    jepa  ep  1 : perte 0.6901  rang effectif 3.9/64  (11 s/epoque)
+    jepa  ep 11 : perte 0.3130  rang effectif 44.3/64  (11 s/epoque)
+    jepa  ep 20 : perte 0.1854  rang effectif 50.4/64  (11 s/epoque)
+    recon ep  1 : perte 0.0750  rang effectif 4.2/64  (23 s/epoque)
+    recon ep 11 : perte 0.0134  rang effectif 19.0/64  (23 s/epoque)
+    recon ep 20 : perte 0.0105  rang effectif 23.8/64  (23 s/epoque)
+
+################ DIAGNOSTIC APRES 1 GRAINE(S) : R2 (ecart-type) ################
+=== Test en distribution
+                                          vx              vy               r
+  supervise, 3 image(s)         -0.530 (0.00)     0.111 (0.00)     0.701 (0.00)
+  supervise, 1 image(s)         -0.696 (0.00)     0.110 (0.00)     0.620 (0.00)
+  jepa, probe MLP               -0.319 (0.00)    -0.391 (0.00)     0.232 (0.00)
+  recon, probe MLP              -0.650 (0.00)    -0.119 (0.00)     0.416 (0.00)
+  jepa, probe lineaire          -0.067 (0.00)    -0.006 (0.00)     0.161 (0.00)
+  recon, probe lineaire          0.013 (0.00)    -0.058 (0.00)     0.142 (0.00)
+=== Test glisse
+                                          vx              vy               r
+  supervise, 3 image(s)          0.184 (0.00)     0.127 (0.00)     0.491 (0.00)
+  supervise, 1 image(s)          0.083 (0.00)     0.106 (0.00)     0.431 (0.00)
+  jepa, probe MLP               -0.016 (0.00)     0.001 (0.00)     0.174 (0.00)
+  recon, probe MLP               0.041 (0.00)     0.069 (0.00)     0.232 (0.00)
+  jepa, probe lineaire           0.058 (0.00)    -0.007 (0.00)     0.124 (0.00)
+  recon, probe lineaire          0.113 (0.00)     0.003 (0.00)     0.125 (0.00)
+[ok] -> D:\rally-jepa\rally-jepa\outputs\diag_cam.csv
+[graine 1] 178 runs d'entrainement
+    supervise 1 image(s) ep  1 : perte 1.1853  (3 s/epoque)
+    supervise 1 image(s) ep 20 : perte 0.0701  (3 s/epoque)
+    supervise 3 image(s) ep  1 : perte 1.2066  (3 s/epoque)
+    supervise 3 image(s) ep 20 : perte 0.0416  (3 s/epoque)
+    jepa  ep  1 : perte 0.6985  rang effectif 2.8/64  (11 s/epoque)
+    jepa  ep 11 : perte 0.3109  rang effectif 42.6/64  (11 s/epoque)
+    jepa  ep 20 : perte 0.1849  rang effectif 49.2/64  (11 s/epoque)
+    recon ep  1 : perte 0.0738  rang effectif 3.8/64  (23 s/epoque)
+    recon ep 11 : perte 0.0126  rang effectif 23.2/64  (23 s/epoque)
+    recon ep 20 : perte 0.0101  rang effectif 26.8/64  (23 s/epoque)
+
+################ DIAGNOSTIC APRES 2 GRAINE(S) : R2 (ecart-type) ################
+=== Test en distribution
+                                          vx              vy               r
+  supervise, 3 image(s)         -0.126 (0.40)     0.142 (0.03)     0.728 (0.03)
+  supervise, 1 image(s)         -0.250 (0.45)     0.166 (0.06)     0.670 (0.05)
+  jepa, probe MLP               -0.137 (0.18)    -0.215 (0.18)     0.417 (0.18)
+  recon, probe MLP              -0.337 (0.31)    -0.057 (0.06)     0.501 (0.09)
+  jepa, probe lineaire          -0.015 (0.05)     0.007 (0.01)     0.151 (0.01)
+  recon, probe lineaire          0.048 (0.04)    -0.019 (0.04)     0.153 (0.01)
+=== Test glisse
+                                          vx              vy               r
+  supervise, 3 image(s)          0.188 (0.00)     0.101 (0.03)     0.475 (0.02)
+  supervise, 1 image(s)          0.095 (0.01)     0.088 (0.02)     0.411 (0.02)
+  jepa, probe MLP               -0.053 (0.04)    -0.010 (0.01)     0.198 (0.02)
+  recon, probe MLP               0.022 (0.02)     0.042 (0.03)     0.212 (0.02)
+  jepa, probe lineaire           0.060 (0.00)    -0.007 (0.00)     0.126 (0.00)
+  recon, probe lineaire          0.118 (0.01)     0.004 (0.00)     0.133 (0.01)
+[ok] -> D:\rally-jepa\rally-jepa\outputs\diag_cam.csv
+[graine 2] 178 runs d'entrainement
+    supervise 1 image(s) ep  1 : perte 0.8846  (3 s/epoque)
+    supervise 1 image(s) ep 20 : perte 0.1024  (3 s/epoque)
+    supervise 3 image(s) ep  1 : perte 0.9232  (3 s/epoque)
+    supervise 3 image(s) ep 20 : perte 0.0646  (3 s/epoque)
+    jepa  ep  1 : perte 0.6982  rang effectif 2.9/64  (11 s/epoque)
+    jepa  ep 11 : perte 0.3191  rang effectif 42.8/64  (11 s/epoque)
+    jepa  ep 20 : perte 0.1884  rang effectif 49.5/64  (11 s/epoque)
+    recon ep  1 : perte 0.0726  rang effectif 3.7/64  (23 s/epoque)
+    recon ep 11 : perte 0.0132  rang effectif 19.2/64  (23 s/epoque)
+    recon ep 20 : perte 0.0104  rang effectif 24.7/64  (23 s/epoque)
+
+################ DIAGNOSTIC APRES 3 GRAINE(S) : R2 (ecart-type) ################
+=== Test en distribution
+                                          vx              vy               r
+  supervise, 3 image(s)         -0.035 (0.35)     0.140 (0.03)     0.742 (0.03)
+  supervise, 1 image(s)         -0.131 (0.40)     0.144 (0.05)     0.683 (0.04)
+  jepa, probe MLP               -0.127 (0.15)    -0.127 (0.19)     0.425 (0.15)
+  recon, probe MLP              -0.216 (0.31)    -0.026 (0.07)     0.501 (0.07)
+  jepa, probe lineaire          -0.040 (0.05)     0.007 (0.01)     0.164 (0.02)
+  recon, probe lineaire          0.041 (0.03)    -0.011 (0.03)     0.150 (0.01)
+=== Test glisse
+                                          vx              vy               r
+  supervise, 3 image(s)          0.204 (0.02)     0.093 (0.02)     0.486 (0.02)
+  supervise, 1 image(s)          0.122 (0.04)     0.078 (0.02)     0.417 (0.02)
+  jepa, probe MLP               -0.044 (0.03)    -0.018 (0.01)     0.195 (0.02)
+  recon, probe MLP               0.044 (0.04)     0.042 (0.02)     0.206 (0.02)
+  jepa, probe lineaire           0.061 (0.00)    -0.006 (0.00)     0.135 (0.01)
+  recon, probe lineaire          0.116 (0.01)     0.004 (0.00)     0.139 (0.01)
+[ok] -> D:\rally-jepa\rally-jepa\outputs\diag_cam.csv

@@ -1,0 +1,8 @@
+# Raw simulator data is not redistributed (size + BeamNG.tech academic license)
+data/*.csv
+data/*.npz
+data/frames_cam/
+# Generated outputs (results/ holds the curated copies)
+outputs/
+__pycache__/
+*.pyc

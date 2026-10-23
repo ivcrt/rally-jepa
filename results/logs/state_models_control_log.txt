@@ -1,0 +1,106 @@
+  [graine 0] 97917 transitions, modeles entraines en 336 s
+[validation] mlp K =  1 : erreur a 1 s / persistance = 0.522
+[validation] mlp K =  4 : erreur a 1 s / persistance = 0.529
+[validation] mlp K =  8 : erreur a 1 s / persistance = 0.541
+[validation] mlp K = 16 : erreur a 1 s / persistance = 0.536
+[validation] mlp : K retenu = 1
+  [graine 0] 97917 transitions, modeles entraines en 375 s
+[validation] mlp_hist K =  1 : erreur a 1 s / persistance = 0.672
+[validation] mlp_hist K =  4 : erreur a 1 s / persistance = 0.586
+[validation] mlp_hist K =  8 : erreur a 1 s / persistance = 0.579
+[validation] mlp_hist K = 16 : erreur a 1 s / persistance = 0.574
+[validation] mlp_hist : K retenu = 16
+    jepa K=1 ep  1 : pred 0.0039  var 0.006  cov 3.589  rang effectif 12.2/32
+    jepa K=1 ep  8 : pred 0.0065  var 0.003  cov 0.538  rang effectif 23.9/32
+    jepa K=1 ep 15 : pred 0.0193  var 0.000  cov 0.173  rang effectif 26.7/32
+    jepa K=8 ep  1 : pred 0.0219  var 0.050  cov 2.616  rang effectif 12.4/32
+    jepa K=8 ep  8 : pred 0.0449  var 0.005  cov 0.573  rang effectif 23.9/32
+    jepa K=8 ep 15 : pred 0.0633  var 0.001  cov 0.213  rang effectif 26.7/32
+  [graine 0] 127344 transitions, modeles entraines en 570 s
+    jepa K=1 ep  1 : pred 0.0039  var 0.003  cov 3.890  rang effectif 11.0/32
+    jepa K=1 ep  8 : pred 0.0101  var 0.000  cov 0.449  rang effectif 21.9/32
+    jepa K=1 ep 15 : pred 0.0205  var 0.001  cov 0.184  rang effectif 24.7/32
+    jepa K=8 ep  1 : pred 0.0327  var 0.012  cov 2.948  rang effectif 11.1/32
+    jepa K=8 ep  8 : pred 0.0588  var 0.004  cov 0.624  rang effectif 21.0/32
+    jepa K=8 ep 15 : pred 0.0634  var 0.000  cov 0.269  rang effectif 24.1/32
+  [graine 1] 115979 transitions, modeles entraines en 564 s
+    jepa K=1 ep  1 : pred 0.0043  var 0.015  cov 2.827  rang effectif 12.6/32
+    jepa K=1 ep  8 : pred 0.0067  var 0.001  cov 0.503  rang effectif 24.2/32
+    jepa K=1 ep 15 : pred 0.0191  var 0.003  cov 0.135  rang effectif 27.0/32
+    jepa K=8 ep  1 : pred 0.0279  var 0.005  cov 2.921  rang effectif 12.5/32
+    jepa K=8 ep  8 : pred 0.0587  var 0.010  cov 0.537  rang effectif 23.6/32
+    jepa K=8 ep 15 : pred 0.0612  var 0.000  cov 0.205  rang effectif 26.4/32
+  [graine 2] 127587 transitions, modeles entraines en 555 s
+
+=== Test en distribution (1125 departs de rollout) - RMSE moyenne sur 3 graines (ecart-type)
+  vy (m/s)
+    persistance  0.1s: 0.089 (0.007)   0.5s: 0.266 (0.009)   1.0s: 0.355 (0.038)
+    lineaire     0.1s: 0.087 (0.007)   0.5s: 0.261 (0.015)   1.0s: 0.337 (0.035)
+    mlp          0.1s: 0.074 (0.009)   0.5s: 0.224 (0.025)   1.0s: 0.326 (0.055)
+    velo         0.1s: 0.150 (0.021)   0.5s: 0.500 (0.128)   1.0s: 0.634 (0.194)
+    mlp_hist     0.1s: 0.065 (0.008)   0.5s: 0.332 (0.129)   1.0s: 0.635 (0.447)
+    mlp_k1       0.1s: 0.068 (0.007)   0.5s: 0.205 (0.029)   1.0s: 0.303 (0.062)
+    mlp_hist_k16 0.1s: 0.061 (0.006)   0.5s: 0.209 (0.079)   1.0s: 0.270 (0.113)
+    jepa         0.1s: 0.093 (0.011)   0.5s: 0.312 (0.046)   1.0s: 0.464 (0.148)
+    jepa_k8      0.1s: 0.076 (0.008)   0.5s: 0.212 (0.018)   1.0s: 0.295 (0.057)
+  r (rad/s)
+    persistance  0.1s: 0.056 (0.001)   0.5s: 0.166 (0.008)   1.0s: 0.232 (0.014)
+    lineaire     0.1s: 0.048 (0.001)   0.5s: 0.108 (0.007)   1.0s: 0.121 (0.004)
+    mlp          0.1s: 0.037 (0.008)   0.5s: 0.054 (0.002)   1.0s: 0.068 (0.007)
+    velo         0.1s: 0.045 (0.001)   0.5s: 0.098 (0.005)   1.0s: 0.115 (0.006)
+    mlp_hist     0.1s: 0.037 (0.006)   0.5s: 0.082 (0.025)   1.0s: 0.120 (0.070)
+    mlp_k1       0.1s: 0.036 (0.006)   0.5s: 0.055 (0.003)   1.0s: 0.060 (0.003)
+    mlp_hist_k16 0.1s: 0.035 (0.011)   0.5s: 0.050 (0.002)   1.0s: 0.055 (0.003)
+    jepa         0.1s: 0.059 (0.001)   0.5s: 0.124 (0.021)   1.0s: 0.164 (0.043)
+    jepa_k8      0.1s: 0.040 (0.006)   0.5s: 0.059 (0.002)   1.0s: 0.066 (0.004)
+  vx (m/s)
+    persistance  0.1s: 0.332 (0.024)   0.5s: 1.549 (0.090)   1.0s: 2.773 (0.146)
+    lineaire     0.1s: 0.183 (0.013)   0.5s: 0.806 (0.047)   1.0s: 1.433 (0.085)
+    mlp          0.1s: 0.144 (0.011)   0.5s: 0.643 (0.019)   1.0s: 1.149 (0.054)
+    velo         0.1s: 0.175 (0.014)   0.5s: 0.777 (0.050)   1.0s: 1.388 (0.101)
+    mlp_hist     0.1s: 0.093 (0.003)   0.5s: 0.537 (0.020)   1.0s: 1.183 (0.048)
+    mlp_k1       0.1s: 0.162 (0.011)   0.5s: 0.711 (0.035)   1.0s: 1.255 (0.071)
+    mlp_hist_k16 0.1s: 0.152 (0.007)   0.5s: 0.628 (0.038)   1.0s: 1.102 (0.073)
+    jepa         0.1s: 0.972 (0.101)   0.5s: 4.110 (0.340)   1.0s: 5.707 (0.652)
+    jepa_k8      0.1s: 0.516 (0.006)   0.5s: 1.674 (0.162)   1.0s: 2.729 (0.357)
+
+=== Test glisse (hors distribution) (3666 departs de rollout) - RMSE moyenne sur 3 graines (ecart-type)
+  vy (m/s)
+    persistance  0.1s: 0.165 (0.000)   0.5s: 0.583 (0.000)   1.0s: 0.606 (0.000)
+    lineaire     0.1s: 0.159 (0.001)   0.5s: 0.560 (0.022)   1.0s: 0.582 (0.032)
+    mlp          0.1s: 0.156 (0.008)   0.5s: 0.526 (0.015)   1.0s: 0.702 (0.112)
+    velo         0.1s: 0.192 (0.002)   0.5s: 0.670 (0.013)   1.0s: 0.722 (0.008)
+    mlp_hist     0.1s: 0.150 (0.018)   0.5s: 0.765 (0.306)   1.0s: 1.797 (1.210)
+    mlp_k1       0.1s: 0.136 (0.004)   0.5s: 0.470 (0.012)   1.0s: 0.687 (0.086)
+    mlp_hist_k16 0.1s: 0.139 (0.004)   0.5s: 0.466 (0.021)   1.0s: 0.613 (0.131)
+    jepa         0.1s: 0.170 (0.014)   0.5s: 0.525 (0.056)   1.0s: 0.660 (0.106)
+    jepa_k8      0.1s: 0.170 (0.016)   0.5s: 0.462 (0.043)   1.0s: 0.573 (0.086)
+  r (rad/s)
+    persistance  0.1s: 0.074 (0.000)   0.5s: 0.199 (0.000)   1.0s: 0.255 (0.000)
+    lineaire     0.1s: 0.065 (0.001)   0.5s: 0.144 (0.001)   1.0s: 0.174 (0.000)
+    mlp          0.1s: 0.063 (0.005)   0.5s: 0.120 (0.005)   1.0s: 0.145 (0.011)
+    velo         0.1s: 0.065 (0.000)   0.5s: 0.143 (0.001)   1.0s: 0.167 (0.001)
+    mlp_hist     0.1s: 0.060 (0.001)   0.5s: 0.152 (0.031)   1.0s: 0.296 (0.125)
+    mlp_k1       0.1s: 0.060 (0.002)   0.5s: 0.106 (0.004)   1.0s: 0.137 (0.011)
+    mlp_hist_k16 0.1s: 0.058 (0.001)   0.5s: 0.100 (0.002)   1.0s: 0.114 (0.001)
+    jepa         0.1s: 0.081 (0.005)   0.5s: 0.174 (0.027)   1.0s: 0.200 (0.040)
+    jepa_k8      0.1s: 0.076 (0.007)   0.5s: 0.124 (0.012)   1.0s: 0.143 (0.011)
+  vx (m/s)
+    persistance  0.1s: 0.270 (0.000)   0.5s: 1.201 (0.000)   1.0s: 2.197 (0.000)
+    lineaire     0.1s: 0.210 (0.000)   0.5s: 0.904 (0.000)   1.0s: 1.627 (0.005)
+    mlp          0.1s: 0.197 (0.004)   0.5s: 0.810 (0.010)   1.0s: 1.410 (0.040)
+    velo         0.1s: 0.211 (0.000)   0.5s: 0.912 (0.001)   1.0s: 1.630 (0.002)
+    mlp_hist     0.1s: 0.132 (0.003)   0.5s: 0.692 (0.004)   1.0s: 1.452 (0.063)
+    mlp_k1       0.1s: 0.190 (0.002)   0.5s: 0.795 (0.010)   1.0s: 1.405 (0.025)
+    mlp_hist_k16 0.1s: 0.181 (0.008)   0.5s: 0.723 (0.009)   1.0s: 1.247 (0.012)
+    jepa         0.1s: 0.993 (0.108)   0.5s: 3.678 (0.417)   1.0s: 5.057 (0.959)
+    jepa_k8      0.1s: 0.804 (0.075)   0.5s: 2.213 (0.229)   1.0s: 3.332 (0.333)
+
+=== Probe lineaire : R2 de l'angle de derive (moyenne sur les graines)
+  etat brut        en distribution: 0.901   glisse (hors distribution): 0.833
+  fenetre brute    en distribution: 0.906   glisse (hors distribution): 0.836
+  latent jepa      en distribution: 0.755   glisse (hors distribution): 0.802
+  latent jepa_k8   en distribution: 0.846   glisse (hors distribution): 0.813
+
+[ok] -> outputs/eval_jepa.csv
+EXIT 0

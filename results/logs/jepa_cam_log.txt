@@ -1,0 +1,605 @@
+[calcul] cuda (NVIDIA GeForce GTX 1650)
+[donnees] 78005 images, 441 runs, chargees en 10 s
+[graine 0] 178 runs d'entrainement, 22836 sequences ; tests : 45 runs normaux, 218 runs en glisse
+python : D:\rally-jepa\rally-jepa\src\jepa_cam.py:243: UserWarning: Converting a tensor with 
+requires_grad=True to a scalar may lead to unexpected behavior.
+Au caractère Ligne:1 : 4
++    python jepa_cam.py --seeds 10 2>&1 | Tee-Object ..\outputs\jepa_ca ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (D:\rally-jepa\r...ected behavior.:String) [], 
+RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorc
+h\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:836.)
+  tot += float(loss)
+    jepa  ep  1 : perte 0.6901  rang effectif 3.9/64  (12 s/epoque)
+    jepa  ep 11 : perte 0.3136  rang effectif 44.4/64  (11 s/epoque)
+    jepa  ep 20 : perte 0.1861  rang effectif 50.5/64  (11 s/epoque)
+    recon ep  1 : perte 0.0750  rang effectif 4.2/64  (23 s/epoque)
+    recon ep 11 : perte 0.0134  rang effectif 18.9/64  (23 s/epoque)
+    recon ep 20 : perte 0.0105  rang effectif 23.7/64  (23 s/epoque)
+[recon] exemples (vrai en haut, reconstruit/predit en bas ; lignes : t, t+0,5 s, t+1 s) -> D:\rally-jepa\rally-jepa\outputs\recon_exemples.png
+
+################ BILAN APRES 1 GRAINE(S) ################
+
+=== Test en distribution  (moyenne sur 1 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     -0.096(0.00)  -0.012(0.00)  0.168(0.00)  -0.010(0.00)
+    recon                    -0.005(0.00)  -0.064(0.00)  0.146(0.00)  -0.064(0.00)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.326 (0.000)  0.5s: 1.440 (0.000)  1.0s: 2.487 (0.000)
+     jepa : etat lu a t, fige     0.1s: 4.032 (0.000)  0.5s: 4.080 (0.000)  1.0s: 4.216 (0.000)
+     jepa : rollout latent        0.1s: 4.027 (0.000)  0.5s: 4.047 (0.000)  1.0s: 4.135 (0.000)
+     recon : etat lu a t, fige    0.1s: 3.854 (0.000)  0.5s: 3.885 (0.000)  1.0s: 4.031 (0.000)
+     recon : rollout latent       0.1s: 6.465 (0.000)  0.5s: 24.147 (0.000)  1.0s: 41.750 (0.000)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.108 (0.000)  0.5s: 0.276 (0.000)  1.0s: 0.325 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.245 (0.000)  0.5s: 0.247 (0.000)  1.0s: 0.249 (0.000)
+     jepa : rollout latent        0.1s: 0.245 (0.000)  0.5s: 0.246 (0.000)  1.0s: 0.246 (0.000)
+     recon : etat lu a t, fige    0.1s: 0.250 (0.000)  0.5s: 0.250 (0.000)  1.0s: 0.249 (0.000)
+     recon : rollout latent       0.1s: 0.314 (0.000)  0.5s: 0.788 (0.000)  1.0s: 1.226 (0.000)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.065 (0.000)  0.5s: 0.177 (0.000)  1.0s: 0.246 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.198 (0.000)  0.5s: 0.202 (0.000)  1.0s: 0.213 (0.000)
+     jepa : rollout latent        0.1s: 0.197 (0.000)  0.5s: 0.197 (0.000)  1.0s: 0.198 (0.000)
+     recon : etat lu a t, fige    0.1s: 0.200 (0.000)  0.5s: 0.207 (0.000)  1.0s: 0.217 (0.000)
+     recon : rollout latent       0.1s: 0.254 (0.000)  0.5s: 0.719 (0.000)  1.0s: 1.183 (0.000)
+
+=== Test glisse  (moyenne sur 1 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     0.051(0.00)  -0.001(0.00)  0.121(0.00)  -0.007(0.00)
+    recon                    0.114(0.00)  0.003(0.00)  0.126(0.00)  -0.002(0.00)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.348 (0.000)  0.5s: 1.601 (0.000)  1.0s: 2.925 (0.000)
+     jepa : etat lu a t, fige     0.1s: 4.017 (0.000)  0.5s: 4.188 (0.000)  1.0s: 4.529 (0.000)
+     jepa : rollout latent        0.1s: 4.011 (0.000)  0.5s: 4.155 (0.000)  1.0s: 4.458 (0.000)
+     recon : etat lu a t, fige    0.1s: 3.880 (0.000)  0.5s: 4.020 (0.000)  1.0s: 4.368 (0.000)
+     recon : rollout latent       0.1s: 7.059 (0.000)  0.5s: 23.715 (0.000)  1.0s: 40.118 (0.000)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.242 (0.000)  0.5s: 0.628 (0.000)  1.0s: 0.680 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.512 (0.000)  0.5s: 0.520 (0.000)  1.0s: 0.517 (0.000)
+     jepa : rollout latent        0.1s: 0.511 (0.000)  0.5s: 0.514 (0.000)  1.0s: 0.508 (0.000)
+     recon : etat lu a t, fige    0.1s: 0.511 (0.000)  0.5s: 0.522 (0.000)  1.0s: 0.519 (0.000)
+     recon : rollout latent       0.1s: 0.535 (0.000)  0.5s: 0.829 (0.000)  1.0s: 1.209 (0.000)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.090 (0.000)  0.5s: 0.211 (0.000)  1.0s: 0.256 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.200 (0.000)  0.5s: 0.202 (0.000)  1.0s: 0.205 (0.000)
+     jepa : rollout latent        0.1s: 0.199 (0.000)  0.5s: 0.196 (0.000)  1.0s: 0.192 (0.000)
+     recon : etat lu a t, fige    0.1s: 0.199 (0.000)  0.5s: 0.201 (0.000)  1.0s: 0.209 (0.000)
+     recon : rollout latent       0.1s: 0.249 (0.000)  0.5s: 0.737 (0.000)  1.0s: 1.214 (0.000)
+
+[ok] bilan sur 1 graine(s) -> D:\rally-jepa\rally-jepa\outputs\eval_cam.csv
+[graine 1] 178 runs d'entrainement, 22678 sequences ; tests : 45 runs normaux, 218 runs en glisse
+    jepa  ep  1 : perte 0.6985  rang effectif 2.8/64  (11 s/epoque)
+    jepa  ep 11 : perte 0.3112  rang effectif 42.8/64  (11 s/epoque)
+    jepa  ep 20 : perte 0.1850  rang effectif 49.3/64  (11 s/epoque)
+    recon ep  1 : perte 0.0738  rang effectif 3.8/64  (23 s/epoque)
+    recon ep 11 : perte 0.0126  rang effectif 23.3/64  (23 s/epoque)
+    recon ep 20 : perte 0.0101  rang effectif 26.8/64  (23 s/epoque)
+
+################ BILAN APRES 2 GRAINE(S) ################
+
+=== Test en distribution  (moyenne sur 2 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     -0.032(0.06)  0.007(0.02)  0.158(0.01)  0.008(0.02)
+    recon                    0.040(0.04)  -0.025(0.04)  0.158(0.01)  -0.028(0.04)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.329 (0.003)  0.5s: 1.435 (0.006)  1.0s: 2.443 (0.044)
+     jepa : etat lu a t, fige     0.1s: 3.980 (0.051)  0.5s: 4.022 (0.057)  1.0s: 4.147 (0.068)
+     jepa : rollout latent        0.1s: 3.973 (0.054)  0.5s: 3.975 (0.071)  1.0s: 4.032 (0.103)
+     recon : etat lu a t, fige    0.1s: 3.832 (0.022)  0.5s: 3.864 (0.021)  1.0s: 3.996 (0.035)
+     recon : rollout latent       0.1s: 5.428 (1.036)  0.5s: 17.327 (6.820)  1.0s: 30.333 (11.416)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.122 (0.014)  0.5s: 0.319 (0.043)  1.0s: 0.359 (0.034)
+     jepa : etat lu a t, fige     0.1s: 0.259 (0.014)  0.5s: 0.262 (0.015)  1.0s: 0.266 (0.017)
+     jepa : rollout latent        0.1s: 0.258 (0.014)  0.5s: 0.259 (0.014)  1.0s: 0.261 (0.015)
+     recon : etat lu a t, fige    0.1s: 0.263 (0.012)  0.5s: 0.266 (0.016)  1.0s: 0.267 (0.019)
+     recon : rollout latent       0.1s: 0.310 (0.004)  0.5s: 0.737 (0.051)  1.0s: 1.180 (0.045)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.069 (0.005)  0.5s: 0.182 (0.004)  1.0s: 0.253 (0.007)
+     jepa : etat lu a t, fige     0.1s: 0.204 (0.006)  0.5s: 0.207 (0.005)  1.0s: 0.216 (0.004)
+     jepa : rollout latent        0.1s: 0.204 (0.006)  0.5s: 0.204 (0.006)  1.0s: 0.204 (0.006)
+     recon : etat lu a t, fige    0.1s: 0.204 (0.004)  0.5s: 0.209 (0.002)  1.0s: 0.218 (0.002)
+     recon : rollout latent       0.1s: 0.248 (0.007)  0.5s: 0.661 (0.058)  1.0s: 1.125 (0.058)
+
+=== Test glisse  (moyenne sur 2 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     0.046(0.01)  -0.004(0.00)  0.130(0.01)  -0.008(0.00)
+    recon                    0.121(0.01)  0.004(0.00)  0.129(0.00)  0.002(0.00)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.348 (0.000)  0.5s: 1.601 (0.000)  1.0s: 2.925 (0.000)
+     jepa : etat lu a t, fige     0.1s: 4.033 (0.016)  0.5s: 4.186 (0.002)  1.0s: 4.522 (0.008)
+     jepa : rollout latent        0.1s: 4.027 (0.016)  0.5s: 4.162 (0.007)  1.0s: 4.456 (0.002)
+     recon : etat lu a t, fige    0.1s: 3.867 (0.013)  0.5s: 4.012 (0.007)  1.0s: 4.365 (0.002)
+     recon : rollout latent       0.1s: 5.650 (1.409)  0.5s: 16.749 (6.966)  1.0s: 28.899 (11.219)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.242 (0.000)  0.5s: 0.628 (0.000)  1.0s: 0.680 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.512 (0.001)  0.5s: 0.519 (0.000)  1.0s: 0.517 (0.000)
+     jepa : rollout latent        0.1s: 0.512 (0.001)  0.5s: 0.516 (0.001)  1.0s: 0.510 (0.002)
+     recon : etat lu a t, fige    0.1s: 0.510 (0.001)  0.5s: 0.520 (0.002)  1.0s: 0.518 (0.000)
+     recon : rollout latent       0.1s: 0.527 (0.008)  0.5s: 0.808 (0.021)  1.0s: 1.199 (0.010)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.090 (0.000)  0.5s: 0.211 (0.000)  1.0s: 0.256 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.199 (0.001)  0.5s: 0.201 (0.001)  1.0s: 0.205 (0.000)
+     jepa : rollout latent        0.1s: 0.198 (0.001)  0.5s: 0.196 (0.000)  1.0s: 0.192 (0.000)
+     recon : etat lu a t, fige    0.1s: 0.198 (0.000)  0.5s: 0.201 (0.001)  1.0s: 0.206 (0.002)
+     recon : rollout latent       0.1s: 0.242 (0.007)  0.5s: 0.659 (0.078)  1.0s: 1.106 (0.108)
+
+[ok] bilan sur 2 graine(s) -> D:\rally-jepa\rally-jepa\outputs\eval_cam.csv
+[graine 2] 178 runs d'entrainement, 22852 sequences ; tests : 45 runs normaux, 218 runs en glisse
+    jepa  ep  1 : perte 0.6982  rang effectif 2.9/64  (11 s/epoque)
+    jepa  ep 11 : perte 0.3184  rang effectif 42.9/64  (11 s/epoque)
+    jepa  ep 20 : perte 0.1872  rang effectif 49.7/64  (11 s/epoque)
+    recon ep  1 : perte 0.0726  rang effectif 3.7/64  (23 s/epoque)
+    recon ep 11 : perte 0.0132  rang effectif 19.2/64  (23 s/epoque)
+    recon ep 20 : perte 0.0104  rang effectif 24.7/64  (23 s/epoque)
+
+################ BILAN APRES 3 GRAINE(S) ################
+
+=== Test en distribution  (moyenne sur 3 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     -0.044(0.05)  0.009(0.02)  0.173(0.02)  0.012(0.02)
+    recon                    0.036(0.04)  -0.015(0.03)  0.153(0.01)  -0.013(0.04)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.324 (0.006)  0.5s: 1.412 (0.032)  1.0s: 2.414 (0.055)
+     jepa : etat lu a t, fige     0.1s: 4.137 (0.225)  0.5s: 4.175 (0.221)  1.0s: 4.291 (0.211)
+     jepa : rollout latent        0.1s: 4.128 (0.223)  0.5s: 4.125 (0.220)  1.0s: 4.174 (0.218)
+     recon : etat lu a t, fige    0.1s: 3.973 (0.201)  0.5s: 4.005 (0.201)  1.0s: 4.135 (0.198)
+     recon : rollout latent       0.1s: 5.237 (0.888)  0.5s: 15.563 (6.101)  1.0s: 27.332 (10.242)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.124 (0.012)  0.5s: 0.328 (0.037)  1.0s: 0.375 (0.036)
+     jepa : etat lu a t, fige     0.1s: 0.289 (0.043)  0.5s: 0.290 (0.041)  1.0s: 0.293 (0.040)
+     jepa : rollout latent        0.1s: 0.288 (0.044)  0.5s: 0.288 (0.043)  1.0s: 0.289 (0.042)
+     recon : etat lu a t, fige    0.1s: 0.291 (0.042)  0.5s: 0.294 (0.042)  1.0s: 0.295 (0.043)
+     recon : rollout latent       0.1s: 0.331 (0.029)  0.5s: 0.727 (0.044)  1.0s: 1.177 (0.037)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.069 (0.004)  0.5s: 0.179 (0.006)  1.0s: 0.248 (0.008)
+     jepa : etat lu a t, fige     0.1s: 0.198 (0.010)  0.5s: 0.202 (0.009)  1.0s: 0.212 (0.007)
+     jepa : rollout latent        0.1s: 0.197 (0.010)  0.5s: 0.198 (0.010)  1.0s: 0.199 (0.009)
+     recon : etat lu a t, fige    0.1s: 0.200 (0.007)  0.5s: 0.205 (0.006)  1.0s: 0.215 (0.005)
+     recon : rollout latent       0.1s: 0.250 (0.006)  0.5s: 0.687 (0.060)  1.0s: 1.182 (0.094)
+
+=== Test glisse  (moyenne sur 3 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     0.055(0.01)  -0.004(0.00)  0.134(0.01)  -0.007(0.00)
+    recon                    0.118(0.01)  0.005(0.00)  0.137(0.01)  0.001(0.00)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.348 (0.000)  0.5s: 1.601 (0.000)  1.0s: 2.925 (0.000)
+     jepa : etat lu a t, fige     0.1s: 4.013 (0.031)  0.5s: 4.159 (0.038)  1.0s: 4.491 (0.044)
+     jepa : rollout latent        0.1s: 4.007 (0.031)  0.5s: 4.129 (0.048)  1.0s: 4.404 (0.073)
+     recon : etat lu a t, fige    0.1s: 3.875 (0.016)  0.5s: 4.018 (0.010)  1.0s: 4.369 (0.005)
+     recon : rollout latent       0.1s: 5.258 (1.277)  0.5s: 14.644 (6.420)  1.0s: 25.303 (10.477)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.242 (0.000)  0.5s: 0.628 (0.000)  1.0s: 0.680 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.512 (0.001)  0.5s: 0.519 (0.001)  1.0s: 0.517 (0.001)
+     jepa : rollout latent        0.1s: 0.512 (0.001)  0.5s: 0.515 (0.001)  1.0s: 0.510 (0.001)
+     recon : etat lu a t, fige    0.1s: 0.510 (0.001)  0.5s: 0.520 (0.002)  1.0s: 0.518 (0.001)
+     recon : rollout latent       0.1s: 0.527 (0.006)  0.5s: 0.807 (0.017)  1.0s: 1.196 (0.009)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.090 (0.000)  0.5s: 0.211 (0.000)  1.0s: 0.256 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.198 (0.001)  0.5s: 0.201 (0.001)  1.0s: 0.206 (0.001)
+     jepa : rollout latent        0.1s: 0.197 (0.001)  0.5s: 0.195 (0.001)  1.0s: 0.191 (0.001)
+     recon : etat lu a t, fige    0.1s: 0.197 (0.001)  0.5s: 0.200 (0.001)  1.0s: 0.207 (0.002)
+     recon : rollout latent       0.1s: 0.240 (0.006)  0.5s: 0.650 (0.065)  1.0s: 1.093 (0.090)
+
+[ok] bilan sur 3 graine(s) -> D:\rally-jepa\rally-jepa\outputs\eval_cam.csv
+[graine 3] 178 runs d'entrainement, 22957 sequences ; tests : 45 runs normaux, 218 runs en glisse
+    jepa  ep  1 : perte 0.7010  rang effectif 3.3/64  (11 s/epoque)
+    jepa  ep 11 : perte 0.3051  rang effectif 44.7/64  (11 s/epoque)
+    jepa  ep 20 : perte 0.1761  rang effectif 51.3/64  (11 s/epoque)
+    recon ep  1 : perte 0.0787  rang effectif 3.8/64  (23 s/epoque)
+    recon ep 11 : perte 0.0133  rang effectif 18.9/64  (23 s/epoque)
+    recon ep 20 : perte 0.0105  rang effectif 23.7/64  (23 s/epoque)
+
+################ BILAN APRES 4 GRAINE(S) ################
+
+=== Test en distribution  (moyenne sur 4 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     -0.016(0.07)  0.005(0.01)  0.160(0.03)  0.009(0.02)
+    recon                    0.049(0.04)  -0.017(0.03)  0.145(0.02)  -0.016(0.03)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.327 (0.008)  0.5s: 1.430 (0.042)  1.0s: 2.450 (0.079)
+     jepa : etat lu a t, fige     0.1s: 4.121 (0.197)  0.5s: 4.163 (0.193)  1.0s: 4.285 (0.183)
+     jepa : rollout latent        0.1s: 4.112 (0.195)  0.5s: 4.112 (0.192)  1.0s: 4.164 (0.189)
+     recon : etat lu a t, fige    0.1s: 3.987 (0.175)  0.5s: 4.022 (0.177)  1.0s: 4.156 (0.176)
+     recon : rollout latent       0.1s: 5.078 (0.817)  0.5s: 14.973 (5.382)  1.0s: 26.460 (8.998)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.128 (0.012)  0.5s: 0.340 (0.039)  1.0s: 0.393 (0.044)
+     jepa : etat lu a t, fige     0.1s: 0.294 (0.039)  0.5s: 0.296 (0.037)  1.0s: 0.301 (0.037)
+     jepa : rollout latent        0.1s: 0.293 (0.039)  0.5s: 0.295 (0.039)  1.0s: 0.297 (0.039)
+     recon : etat lu a t, fige    0.1s: 0.297 (0.037)  0.5s: 0.300 (0.038)  1.0s: 0.303 (0.039)
+     recon : rollout latent       0.1s: 0.333 (0.026)  0.5s: 0.698 (0.063)  1.0s: 1.113 (0.116)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.069 (0.004)  0.5s: 0.179 (0.005)  1.0s: 0.250 (0.007)
+     jepa : etat lu a t, fige     0.1s: 0.198 (0.009)  0.5s: 0.203 (0.007)  1.0s: 0.212 (0.006)
+     jepa : rollout latent        0.1s: 0.197 (0.009)  0.5s: 0.198 (0.009)  1.0s: 0.200 (0.008)
+     recon : etat lu a t, fige    0.1s: 0.200 (0.006)  0.5s: 0.205 (0.005)  1.0s: 0.215 (0.004)
+     recon : rollout latent       0.1s: 0.273 (0.041)  0.5s: 0.812 (0.223)  1.0s: 1.387 (0.364)
+
+=== Test glisse  (moyenne sur 4 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     0.052(0.01)  -0.004(0.00)  0.134(0.01)  -0.006(0.00)
+    recon                    0.118(0.01)  0.001(0.01)  0.139(0.01)  -0.002(0.01)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.348 (0.000)  0.5s: 1.601 (0.000)  1.0s: 2.925 (0.000)
+     jepa : etat lu a t, fige     0.1s: 4.022 (0.031)  0.5s: 4.169 (0.037)  1.0s: 4.499 (0.040)
+     jepa : rollout latent        0.1s: 4.016 (0.031)  0.5s: 4.139 (0.045)  1.0s: 4.414 (0.066)
+     recon : etat lu a t, fige    0.1s: 3.874 (0.014)  0.5s: 4.018 (0.009)  1.0s: 4.365 (0.007)
+     recon : rollout latent       0.1s: 5.097 (1.140)  0.5s: 14.507 (5.565)  1.0s: 25.267 (9.073)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.242 (0.000)  0.5s: 0.628 (0.000)  1.0s: 0.680 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.512 (0.001)  0.5s: 0.519 (0.001)  1.0s: 0.517 (0.001)
+     jepa : rollout latent        0.1s: 0.512 (0.001)  0.5s: 0.515 (0.001)  1.0s: 0.510 (0.001)
+     recon : etat lu a t, fige    0.1s: 0.511 (0.002)  0.5s: 0.519 (0.002)  1.0s: 0.517 (0.001)
+     recon : rollout latent       0.1s: 0.528 (0.006)  0.5s: 0.786 (0.040)  1.0s: 1.138 (0.101)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.090 (0.000)  0.5s: 0.211 (0.000)  1.0s: 0.256 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.198 (0.001)  0.5s: 0.200 (0.001)  1.0s: 0.205 (0.001)
+     jepa : rollout latent        0.1s: 0.197 (0.001)  0.5s: 0.195 (0.001)  1.0s: 0.192 (0.001)
+     recon : etat lu a t, fige    0.1s: 0.197 (0.001)  0.5s: 0.200 (0.001)  1.0s: 0.207 (0.002)
+     recon : rollout latent       0.1s: 0.264 (0.043)  0.5s: 0.776 (0.226)  1.0s: 1.306 (0.377)
+
+[ok] bilan sur 4 graine(s) -> D:\rally-jepa\rally-jepa\outputs\eval_cam.csv
+[graine 4] 178 runs d'entrainement, 23175 sequences ; tests : 45 runs normaux, 218 runs en glisse
+    jepa  ep  1 : perte 0.6932  rang effectif 3.5/64  (11 s/epoque)
+    jepa  ep 11 : perte 0.3023  rang effectif 45.0/64  (11 s/epoque)
+    jepa  ep 20 : perte 0.1703  rang effectif 50.1/64  (11 s/epoque)
+    recon ep  1 : perte 0.0686  rang effectif 4.5/64  (23 s/epoque)
+    recon ep 11 : perte 0.0129  rang effectif 20.1/64  (23 s/epoque)
+    recon ep 20 : perte 0.0101  rang effectif 24.7/64  (23 s/epoque)
+
+################ BILAN APRES 5 GRAINE(S) ################
+
+=== Test en distribution  (moyenne sur 5 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     -0.023(0.06)  0.005(0.01)  0.158(0.03)  0.006(0.01)
+    recon                    0.030(0.05)  -0.013(0.03)  0.141(0.02)  -0.013(0.03)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.314 (0.027)  0.5s: 1.366 (0.134)  1.0s: 2.335 (0.241)
+     jepa : etat lu a t, fige     0.1s: 4.028 (0.256)  0.5s: 4.065 (0.261)  1.0s: 4.180 (0.267)
+     jepa : rollout latent        0.1s: 4.020 (0.253)  0.5s: 4.022 (0.250)  1.0s: 4.072 (0.250)
+     recon : etat lu a t, fige    0.1s: 3.916 (0.211)  0.5s: 3.946 (0.220)  1.0s: 4.069 (0.234)
+     recon : rollout latent       0.1s: 5.391 (0.962)  0.5s: 16.654 (5.871)  1.0s: 29.097 (9.621)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.126 (0.011)  0.5s: 0.344 (0.035)  1.0s: 0.399 (0.041)
+     jepa : etat lu a t, fige     0.1s: 0.300 (0.037)  0.5s: 0.303 (0.036)  1.0s: 0.306 (0.035)
+     jepa : rollout latent        0.1s: 0.300 (0.037)  0.5s: 0.301 (0.036)  1.0s: 0.303 (0.036)
+     recon : etat lu a t, fige    0.1s: 0.302 (0.035)  0.5s: 0.305 (0.035)  1.0s: 0.308 (0.036)
+     recon : rollout latent       0.1s: 0.348 (0.038)  0.5s: 0.779 (0.171)  1.0s: 1.268 (0.328)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.067 (0.006)  0.5s: 0.173 (0.013)  1.0s: 0.242 (0.018)
+     jepa : etat lu a t, fige     0.1s: 0.193 (0.012)  0.5s: 0.197 (0.012)  1.0s: 0.207 (0.012)
+     jepa : rollout latent        0.1s: 0.193 (0.012)  0.5s: 0.192 (0.013)  1.0s: 0.193 (0.014)
+     recon : etat lu a t, fige    0.1s: 0.195 (0.011)  0.5s: 0.200 (0.011)  1.0s: 0.210 (0.011)
+     recon : rollout latent       0.1s: 0.261 (0.044)  0.5s: 0.776 (0.212)  1.0s: 1.336 (0.341)
+
+=== Test glisse  (moyenne sur 5 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     0.064(0.03)  -0.002(0.00)  0.134(0.01)  -0.005(0.00)
+    recon                    0.114(0.01)  0.001(0.01)  0.136(0.01)  -0.001(0.01)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.348 (0.000)  0.5s: 1.601 (0.000)  1.0s: 2.925 (0.000)
+     jepa : etat lu a t, fige     0.1s: 3.993 (0.064)  0.5s: 4.141 (0.064)  1.0s: 4.477 (0.057)
+     jepa : rollout latent        0.1s: 3.989 (0.060)  0.5s: 4.117 (0.059)  1.0s: 4.390 (0.076)
+     recon : etat lu a t, fige    0.1s: 3.883 (0.022)  0.5s: 4.025 (0.017)  1.0s: 4.370 (0.012)
+     recon : rollout latent       0.1s: 5.544 (1.357)  0.5s: 16.440 (6.302)  1.0s: 28.265 (10.089)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.242 (0.000)  0.5s: 0.628 (0.000)  1.0s: 0.680 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.512 (0.001)  0.5s: 0.519 (0.001)  1.0s: 0.516 (0.001)
+     jepa : rollout latent        0.1s: 0.511 (0.001)  0.5s: 0.515 (0.001)  1.0s: 0.510 (0.001)
+     recon : etat lu a t, fige    0.1s: 0.511 (0.001)  0.5s: 0.519 (0.002)  1.0s: 0.517 (0.002)
+     recon : rollout latent       0.1s: 0.532 (0.010)  0.5s: 0.843 (0.120)  1.0s: 1.261 (0.261)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.090 (0.000)  0.5s: 0.211 (0.000)  1.0s: 0.256 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.198 (0.001)  0.5s: 0.200 (0.001)  1.0s: 0.205 (0.001)
+     jepa : rollout latent        0.1s: 0.197 (0.001)  0.5s: 0.195 (0.001)  1.0s: 0.192 (0.001)
+     recon : etat lu a t, fige    0.1s: 0.198 (0.001)  0.5s: 0.200 (0.001)  1.0s: 0.207 (0.002)
+     recon : rollout latent       0.1s: 0.257 (0.040)  0.5s: 0.749 (0.209)  1.0s: 1.269 (0.345)
+
+[ok] bilan sur 5 graine(s) -> D:\rally-jepa\rally-jepa\outputs\eval_cam.csv
+[graine 5] 178 runs d'entrainement, 22856 sequences ; tests : 45 runs normaux, 218 runs en glisse
+    jepa  ep  1 : perte 0.6826  rang effectif 4.4/64  (11 s/epoque)
+    jepa  ep 11 : perte 0.3289  rang effectif 43.6/64  (11 s/epoque)
+    jepa  ep 20 : perte 0.1992  rang effectif 49.8/64  (11 s/epoque)
+    recon ep  1 : perte 0.0793  rang effectif 4.2/64  (23 s/epoque)
+    recon ep 11 : perte 0.0137  rang effectif 19.6/64  (23 s/epoque)
+    recon ep 20 : perte 0.0107  rang effectif 24.8/64  (23 s/epoque)
+
+################ BILAN APRES 6 GRAINE(S) ################
+
+=== Test en distribution  (moyenne sur 6 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     -0.013(0.06)  0.003(0.01)  0.147(0.03)  0.003(0.01)
+    recon                    0.038(0.05)  -0.011(0.03)  0.130(0.03)  -0.011(0.03)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.317 (0.025)  0.5s: 1.374 (0.124)  1.0s: 2.345 (0.221)
+     jepa : etat lu a t, fige     0.1s: 4.077 (0.258)  0.5s: 4.116 (0.264)  1.0s: 4.232 (0.271)
+     jepa : rollout latent        0.1s: 4.070 (0.256)  0.5s: 4.074 (0.256)  1.0s: 4.126 (0.258)
+     recon : etat lu a t, fige    0.1s: 3.968 (0.225)  0.5s: 3.998 (0.233)  1.0s: 4.122 (0.244)
+     recon : rollout latent       0.1s: 5.260 (0.926)  0.5s: 15.374 (6.076)  1.0s: 26.581 (10.429)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.128 (0.011)  0.5s: 0.345 (0.033)  1.0s: 0.398 (0.038)
+     jepa : etat lu a t, fige     0.1s: 0.296 (0.035)  0.5s: 0.298 (0.034)  1.0s: 0.301 (0.033)
+     jepa : rollout latent        0.1s: 0.295 (0.035)  0.5s: 0.296 (0.035)  1.0s: 0.298 (0.035)
+     recon : etat lu a t, fige    0.1s: 0.297 (0.034)  0.5s: 0.300 (0.034)  1.0s: 0.303 (0.035)
+     recon : rollout latent       0.1s: 0.341 (0.038)  0.5s: 0.760 (0.162)  1.0s: 1.244 (0.304)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.067 (0.005)  0.5s: 0.173 (0.012)  1.0s: 0.241 (0.016)
+     jepa : etat lu a t, fige     0.1s: 0.194 (0.011)  0.5s: 0.198 (0.011)  1.0s: 0.206 (0.011)
+     jepa : rollout latent        0.1s: 0.193 (0.011)  0.5s: 0.193 (0.012)  1.0s: 0.193 (0.013)
+     recon : etat lu a t, fige    0.1s: 0.196 (0.010)  0.5s: 0.201 (0.010)  1.0s: 0.209 (0.010)
+     recon : rollout latent       0.1s: 0.254 (0.043)  0.5s: 0.731 (0.219)  1.0s: 1.254 (0.362)
+
+=== Test glisse  (moyenne sur 6 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     0.061(0.02)  -0.002(0.00)  0.128(0.01)  -0.004(0.00)
+    recon                    0.112(0.01)  0.002(0.01)  0.136(0.01)  -0.000(0.01)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.348 (0.000)  0.5s: 1.601 (0.000)  1.0s: 2.925 (0.000)
+     jepa : etat lu a t, fige     0.1s: 3.998 (0.059)  0.5s: 4.147 (0.060)  1.0s: 4.482 (0.053)
+     jepa : rollout latent        0.1s: 3.994 (0.056)  0.5s: 4.122 (0.055)  1.0s: 4.391 (0.069)
+     recon : etat lu a t, fige    0.1s: 3.886 (0.021)  0.5s: 4.027 (0.016)  1.0s: 4.370 (0.011)
+     recon : rollout latent       0.1s: 5.383 (1.290)  0.5s: 15.290 (6.302)  1.0s: 25.958 (10.556)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.242 (0.000)  0.5s: 0.628 (0.000)  1.0s: 0.680 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.512 (0.001)  0.5s: 0.519 (0.001)  1.0s: 0.517 (0.001)
+     jepa : rollout latent        0.1s: 0.511 (0.001)  0.5s: 0.515 (0.001)  1.0s: 0.510 (0.001)
+     recon : etat lu a t, fige    0.1s: 0.510 (0.001)  0.5s: 0.519 (0.002)  1.0s: 0.516 (0.001)
+     recon : rollout latent       0.1s: 0.531 (0.009)  0.5s: 0.829 (0.113)  1.0s: 1.242 (0.242)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.090 (0.000)  0.5s: 0.211 (0.000)  1.0s: 0.256 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.199 (0.002)  0.5s: 0.201 (0.002)  1.0s: 0.206 (0.001)
+     jepa : rollout latent        0.1s: 0.198 (0.002)  0.5s: 0.196 (0.002)  1.0s: 0.193 (0.002)
+     recon : etat lu a t, fige    0.1s: 0.198 (0.001)  0.5s: 0.201 (0.002)  1.0s: 0.208 (0.002)
+     recon : rollout latent       0.1s: 0.251 (0.039)  0.5s: 0.710 (0.210)  1.0s: 1.200 (0.351)
+
+[ok] bilan sur 6 graine(s) -> D:\rally-jepa\rally-jepa\outputs\eval_cam.csv
+[graine 6] 178 runs d'entrainement, 22819 sequences ; tests : 45 runs normaux, 218 runs en glisse
+    jepa  ep  1 : perte 0.6900  rang effectif 3.9/64  (11 s/epoque)
+    jepa  ep 11 : perte 0.3115  rang effectif 45.1/64  (11 s/epoque)
+    jepa  ep 20 : perte 0.1797  rang effectif 50.5/64  (11 s/epoque)
+    recon ep  1 : perte 0.0697  rang effectif 4.2/64  (23 s/epoque)
+    recon ep 11 : perte 0.0125  rang effectif 21.3/64  (23 s/epoque)
+    recon ep 20 : perte 0.0100  rang effectif 25.5/64  (23 s/epoque)
+
+################ BILAN APRES 7 GRAINE(S) ################
+
+=== Test en distribution  (moyenne sur 7 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     -0.013(0.06)  0.005(0.01)  0.156(0.04)  0.006(0.01)
+    recon                    0.035(0.05)  -0.008(0.03)  0.135(0.03)  -0.009(0.03)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.318 (0.024)  0.5s: 1.379 (0.115)  1.0s: 2.352 (0.206)
+     jepa : etat lu a t, fige     0.1s: 4.064 (0.241)  0.5s: 4.106 (0.246)  1.0s: 4.227 (0.251)
+     jepa : rollout latent        0.1s: 4.056 (0.239)  0.5s: 4.064 (0.238)  1.0s: 4.118 (0.239)
+     recon : etat lu a t, fige    0.1s: 3.960 (0.210)  0.5s: 3.992 (0.216)  1.0s: 4.120 (0.226)
+     recon : rollout latent       0.1s: 5.186 (0.876)  0.5s: 14.858 (5.765)  1.0s: 25.746 (9.870)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.129 (0.010)  0.5s: 0.346 (0.030)  1.0s: 0.396 (0.035)
+     jepa : etat lu a t, fige     0.1s: 0.295 (0.032)  0.5s: 0.298 (0.032)  1.0s: 0.301 (0.031)
+     jepa : rollout latent        0.1s: 0.295 (0.033)  0.5s: 0.296 (0.032)  1.0s: 0.298 (0.032)
+     recon : etat lu a t, fige    0.1s: 0.297 (0.032)  0.5s: 0.300 (0.032)  1.0s: 0.302 (0.032)
+     recon : rollout latent       0.1s: 0.339 (0.035)  0.5s: 0.747 (0.153)  1.0s: 1.223 (0.286)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.067 (0.005)  0.5s: 0.173 (0.011)  1.0s: 0.240 (0.015)
+     jepa : etat lu a t, fige     0.1s: 0.193 (0.010)  0.5s: 0.197 (0.011)  1.0s: 0.205 (0.011)
+     jepa : rollout latent        0.1s: 0.192 (0.011)  0.5s: 0.192 (0.011)  1.0s: 0.192 (0.012)
+     recon : etat lu a t, fige    0.1s: 0.196 (0.009)  0.5s: 0.200 (0.010)  1.0s: 0.209 (0.009)
+     recon : rollout latent       0.1s: 0.248 (0.042)  0.5s: 0.699 (0.216)  1.0s: 1.198 (0.362)
+
+=== Test glisse  (moyenne sur 7 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     0.060(0.02)  -0.001(0.00)  0.131(0.02)  -0.004(0.00)
+    recon                    0.108(0.01)  0.002(0.01)  0.136(0.01)  -0.001(0.01)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.348 (0.000)  0.5s: 1.601 (0.000)  1.0s: 2.925 (0.000)
+     jepa : etat lu a t, fige     0.1s: 4.002 (0.056)  0.5s: 4.152 (0.057)  1.0s: 4.487 (0.051)
+     jepa : rollout latent        0.1s: 3.998 (0.053)  0.5s: 4.125 (0.052)  1.0s: 4.394 (0.064)
+     recon : etat lu a t, fige    0.1s: 3.894 (0.027)  0.5s: 4.035 (0.023)  1.0s: 4.377 (0.020)
+     recon : rollout latent       0.1s: 5.295 (1.214)  0.5s: 14.817 (5.948)  1.0s: 25.197 (9.949)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.242 (0.000)  0.5s: 0.628 (0.000)  1.0s: 0.680 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.512 (0.001)  0.5s: 0.519 (0.001)  1.0s: 0.516 (0.001)
+     jepa : rollout latent        0.1s: 0.511 (0.001)  0.5s: 0.515 (0.001)  1.0s: 0.510 (0.001)
+     recon : etat lu a t, fige    0.1s: 0.510 (0.001)  0.5s: 0.519 (0.002)  1.0s: 0.516 (0.001)
+     recon : rollout latent       0.1s: 0.532 (0.009)  0.5s: 0.824 (0.106)  1.0s: 1.227 (0.227)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.090 (0.000)  0.5s: 0.211 (0.000)  1.0s: 0.256 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.198 (0.002)  0.5s: 0.200 (0.002)  1.0s: 0.205 (0.001)
+     jepa : rollout latent        0.1s: 0.197 (0.002)  0.5s: 0.195 (0.002)  1.0s: 0.192 (0.002)
+     recon : etat lu a t, fige    0.1s: 0.198 (0.001)  0.5s: 0.201 (0.001)  1.0s: 0.207 (0.002)
+     recon : rollout latent       0.1s: 0.246 (0.039)  0.5s: 0.678 (0.210)  1.0s: 1.144 (0.353)
+
+[ok] bilan sur 7 graine(s) -> D:\rally-jepa\rally-jepa\outputs\eval_cam.csv
+[graine 7] 178 runs d'entrainement, 23004 sequences ; tests : 45 runs normaux, 218 runs en glisse
+    jepa  ep  1 : perte 0.6926  rang effectif 3.9/64  (11 s/epoque)
+    jepa  ep 11 : perte 0.2874  rang effectif 43.8/64  (11 s/epoque)
+    jepa  ep 20 : perte 0.1647  rang effectif 49.9/64  (11 s/epoque)
+    recon ep  1 : perte 0.0688  rang effectif 5.0/64  (23 s/epoque)
+    recon ep 11 : perte 0.0127  rang effectif 21.4/64  (23 s/epoque)
+    recon ep 20 : perte 0.0100  rang effectif 26.0/64  (23 s/epoque)
+
+################ BILAN APRES 8 GRAINE(S) ################
+
+=== Test en distribution  (moyenne sur 8 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     0.005(0.07)  0.006(0.01)  0.154(0.04)  0.006(0.01)
+    recon                    0.055(0.07)  -0.003(0.03)  0.131(0.03)  -0.006(0.03)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.324 (0.027)  0.5s: 1.406 (0.129)  1.0s: 2.403 (0.234)
+     jepa : etat lu a t, fige     0.1s: 4.038 (0.236)  0.5s: 4.085 (0.236)  1.0s: 4.215 (0.237)
+     jepa : rollout latent        0.1s: 4.031 (0.233)  0.5s: 4.045 (0.229)  1.0s: 4.103 (0.227)
+     recon : etat lu a t, fige    0.1s: 3.925 (0.216)  0.5s: 3.962 (0.217)  1.0s: 4.098 (0.219)
+     recon : rollout latent       0.1s: 5.074 (0.871)  0.5s: 14.232 (5.642)  1.0s: 24.542 (9.767)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.131 (0.011)  0.5s: 0.348 (0.029)  1.0s: 0.398 (0.033)
+     jepa : etat lu a t, fige     0.1s: 0.294 (0.031)  0.5s: 0.297 (0.030)  1.0s: 0.301 (0.029)
+     jepa : rollout latent        0.1s: 0.294 (0.031)  0.5s: 0.295 (0.030)  1.0s: 0.296 (0.030)
+     recon : etat lu a t, fige    0.1s: 0.295 (0.030)  0.5s: 0.299 (0.030)  1.0s: 0.301 (0.030)
+     recon : rollout latent       0.1s: 0.336 (0.034)  0.5s: 0.729 (0.151)  1.0s: 1.192 (0.280)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.068 (0.005)  0.5s: 0.176 (0.014)  1.0s: 0.245 (0.019)
+     jepa : etat lu a t, fige     0.1s: 0.196 (0.012)  0.5s: 0.200 (0.013)  1.0s: 0.209 (0.014)
+     jepa : rollout latent        0.1s: 0.195 (0.012)  0.5s: 0.195 (0.014)  1.0s: 0.196 (0.015)
+     recon : etat lu a t, fige    0.1s: 0.199 (0.012)  0.5s: 0.203 (0.012)  1.0s: 0.212 (0.012)
+     recon : rollout latent       0.1s: 0.250 (0.040)  0.5s: 0.696 (0.203)  1.0s: 1.197 (0.339)
+
+=== Test glisse  (moyenne sur 8 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     0.062(0.02)  -0.000(0.00)  0.133(0.02)  -0.003(0.00)
+    recon                    0.107(0.01)  0.001(0.01)  0.135(0.01)  -0.001(0.01)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.348 (0.000)  0.5s: 1.601 (0.000)  1.0s: 2.925 (0.000)
+     jepa : etat lu a t, fige     0.1s: 3.999 (0.053)  0.5s: 4.152 (0.053)  1.0s: 4.490 (0.048)
+     jepa : rollout latent        0.1s: 3.994 (0.050)  0.5s: 4.124 (0.048)  1.0s: 4.395 (0.060)
+     recon : etat lu a t, fige    0.1s: 3.895 (0.025)  0.5s: 4.037 (0.023)  1.0s: 4.378 (0.019)
+     recon : rollout latent       0.1s: 5.213 (1.156)  0.5s: 14.276 (5.745)  1.0s: 24.211 (9.665)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.242 (0.000)  0.5s: 0.628 (0.000)  1.0s: 0.680 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.511 (0.001)  0.5s: 0.518 (0.001)  1.0s: 0.516 (0.001)
+     jepa : rollout latent        0.1s: 0.511 (0.001)  0.5s: 0.515 (0.001)  1.0s: 0.510 (0.001)
+     recon : etat lu a t, fige    0.1s: 0.510 (0.001)  0.5s: 0.519 (0.002)  1.0s: 0.516 (0.001)
+     recon : rollout latent       0.1s: 0.532 (0.008)  0.5s: 0.816 (0.102)  1.0s: 1.213 (0.216)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.090 (0.000)  0.5s: 0.211 (0.000)  1.0s: 0.256 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.198 (0.002)  0.5s: 0.201 (0.002)  1.0s: 0.206 (0.001)
+     jepa : rollout latent        0.1s: 0.197 (0.002)  0.5s: 0.195 (0.002)  1.0s: 0.192 (0.002)
+     recon : etat lu a t, fige    0.1s: 0.198 (0.001)  0.5s: 0.201 (0.001)  1.0s: 0.208 (0.002)
+     recon : rollout latent       0.1s: 0.245 (0.037)  0.5s: 0.679 (0.197)  1.0s: 1.154 (0.331)
+
+[ok] bilan sur 8 graine(s) -> D:\rally-jepa\rally-jepa\outputs\eval_cam.csv
+[graine 8] 178 runs d'entrainement, 23149 sequences ; tests : 45 runs normaux, 218 runs en glisse
+    jepa  ep  1 : perte 0.6844  rang effectif 3.9/64  (11 s/epoque)
+    jepa  ep 11 : perte 0.2855  rang effectif 45.2/64  (11 s/epoque)
+    jepa  ep 20 : perte 0.1754  rang effectif 51.5/64  (11 s/epoque)
+    recon ep  1 : perte 0.0690  rang effectif 4.5/64  (23 s/epoque)
+    recon ep 11 : perte 0.0127  rang effectif 19.5/64  (23 s/epoque)
+    recon ep 20 : perte 0.0100  rang effectif 24.0/64  (23 s/epoque)
+
+################ BILAN APRES 9 GRAINE(S) ################
+
+=== Test en distribution  (moyenne sur 9 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     0.009(0.07)  0.007(0.01)  0.150(0.04)  0.007(0.01)
+    recon                    0.062(0.07)  -0.001(0.03)  0.130(0.03)  -0.003(0.03)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.323 (0.025)  0.5s: 1.403 (0.122)  1.0s: 2.396 (0.221)
+     jepa : etat lu a t, fige     0.1s: 4.042 (0.223)  0.5s: 4.085 (0.223)  1.0s: 4.209 (0.224)
+     jepa : rollout latent        0.1s: 4.035 (0.220)  0.5s: 4.046 (0.216)  1.0s: 4.099 (0.214)
+     recon : etat lu a t, fige    0.1s: 3.920 (0.204)  0.5s: 3.957 (0.205)  1.0s: 4.091 (0.208)
+     recon : rollout latent       0.1s: 5.120 (0.831)  0.5s: 14.599 (5.419)  1.0s: 25.196 (9.393)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.133 (0.012)  0.5s: 0.359 (0.040)  1.0s: 0.410 (0.046)
+     jepa : etat lu a t, fige     0.1s: 0.302 (0.037)  0.5s: 0.305 (0.035)  1.0s: 0.309 (0.034)
+     jepa : rollout latent        0.1s: 0.302 (0.037)  0.5s: 0.302 (0.036)  1.0s: 0.304 (0.035)
+     recon : etat lu a t, fige    0.1s: 0.303 (0.036)  0.5s: 0.306 (0.035)  1.0s: 0.308 (0.035)
+     recon : rollout latent       0.1s: 0.340 (0.034)  0.5s: 0.710 (0.152)  1.0s: 1.151 (0.288)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.069 (0.005)  0.5s: 0.178 (0.014)  1.0s: 0.246 (0.018)
+     jepa : etat lu a t, fige     0.1s: 0.196 (0.012)  0.5s: 0.200 (0.013)  1.0s: 0.209 (0.013)
+     jepa : rollout latent        0.1s: 0.196 (0.012)  0.5s: 0.194 (0.013)  1.0s: 0.195 (0.014)
+     recon : etat lu a t, fige    0.1s: 0.199 (0.011)  0.5s: 0.203 (0.011)  1.0s: 0.212 (0.011)
+     recon : rollout latent       0.1s: 0.247 (0.039)  0.5s: 0.681 (0.196)  1.0s: 1.182 (0.323)
+
+=== Test glisse  (moyenne sur 9 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     0.063(0.02)  -0.001(0.00)  0.131(0.02)  -0.003(0.00)
+    recon                    0.108(0.01)  0.001(0.01)  0.135(0.01)  -0.002(0.01)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.348 (0.000)  0.5s: 1.601 (0.000)  1.0s: 2.925 (0.000)
+     jepa : etat lu a t, fige     0.1s: 3.996 (0.050)  0.5s: 4.151 (0.050)  1.0s: 4.490 (0.045)
+     jepa : rollout latent        0.1s: 3.993 (0.047)  0.5s: 4.126 (0.046)  1.0s: 4.399 (0.058)
+     recon : etat lu a t, fige    0.1s: 3.894 (0.024)  0.5s: 4.036 (0.021)  1.0s: 4.379 (0.018)
+     recon : rollout latent       0.1s: 5.230 (1.091)  0.5s: 14.582 (5.485)  1.0s: 24.819 (9.273)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.242 (0.000)  0.5s: 0.628 (0.000)  1.0s: 0.680 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.511 (0.001)  0.5s: 0.518 (0.001)  1.0s: 0.516 (0.001)
+     jepa : rollout latent        0.1s: 0.511 (0.001)  0.5s: 0.515 (0.001)  1.0s: 0.510 (0.001)
+     recon : etat lu a t, fige    0.1s: 0.511 (0.001)  0.5s: 0.519 (0.002)  1.0s: 0.516 (0.002)
+     recon : rollout latent       0.1s: 0.531 (0.008)  0.5s: 0.800 (0.106)  1.0s: 1.178 (0.226)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.090 (0.000)  0.5s: 0.211 (0.000)  1.0s: 0.256 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.198 (0.002)  0.5s: 0.201 (0.002)  1.0s: 0.206 (0.001)
+     jepa : rollout latent        0.1s: 0.198 (0.002)  0.5s: 0.196 (0.002)  1.0s: 0.192 (0.002)
+     recon : etat lu a t, fige    0.1s: 0.198 (0.001)  0.5s: 0.201 (0.001)  1.0s: 0.207 (0.002)
+     recon : rollout latent       0.1s: 0.243 (0.035)  0.5s: 0.666 (0.188)  1.0s: 1.143 (0.314)
+
+[ok] bilan sur 9 graine(s) -> D:\rally-jepa\rally-jepa\outputs\eval_cam.csv
+[graine 9] 178 runs d'entrainement, 22786 sequences ; tests : 45 runs normaux, 218 runs en glisse
+    jepa  ep  1 : perte 0.6946  rang effectif 3.7/64  (11 s/epoque)
+    jepa  ep 11 : perte 0.2980  rang effectif 44.4/64  (11 s/epoque)
+    jepa  ep 20 : perte 0.1740  rang effectif 50.3/64  (11 s/epoque)
+    recon ep  1 : perte 0.0737  rang effectif 4.7/64  (23 s/epoque)
+    recon ep 11 : perte 0.0132  rang effectif 19.9/64  (23 s/epoque)
+    recon ep 20 : perte 0.0105  rang effectif 24.4/64  (23 s/epoque)
+
+################ BILAN APRES 10 GRAINE(S) ################
+
+=== Test en distribution  (moyenne sur 10 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     0.007(0.06)  0.006(0.01)  0.150(0.04)  0.007(0.01)
+    recon                    0.059(0.07)  0.001(0.03)  0.133(0.03)  -0.001(0.02)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.322 (0.024)  0.5s: 1.396 (0.118)  1.0s: 2.388 (0.212)
+     jepa : etat lu a t, fige     0.1s: 4.052 (0.213)  0.5s: 4.094 (0.213)  1.0s: 4.214 (0.213)
+     jepa : rollout latent        0.1s: 4.045 (0.211)  0.5s: 4.056 (0.207)  1.0s: 4.107 (0.205)
+     recon : etat lu a t, fige    0.1s: 3.935 (0.199)  0.5s: 3.972 (0.200)  1.0s: 4.104 (0.201)
+     recon : rollout latent       0.1s: 5.088 (0.795)  0.5s: 14.394 (5.178)  1.0s: 24.794 (8.992)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.134 (0.012)  0.5s: 0.361 (0.038)  1.0s: 0.410 (0.043)
+     jepa : etat lu a t, fige     0.1s: 0.303 (0.035)  0.5s: 0.306 (0.034)  1.0s: 0.309 (0.033)
+     jepa : rollout latent        0.1s: 0.303 (0.035)  0.5s: 0.303 (0.034)  1.0s: 0.304 (0.034)
+     recon : etat lu a t, fige    0.1s: 0.304 (0.034)  0.5s: 0.307 (0.033)  1.0s: 0.309 (0.033)
+     recon : rollout latent       0.1s: 0.340 (0.032)  0.5s: 0.716 (0.146)  1.0s: 1.171 (0.279)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.069 (0.005)  0.5s: 0.178 (0.013)  1.0s: 0.247 (0.017)
+     jepa : etat lu a t, fige     0.1s: 0.196 (0.011)  0.5s: 0.200 (0.012)  1.0s: 0.208 (0.013)
+     jepa : rollout latent        0.1s: 0.195 (0.011)  0.5s: 0.194 (0.012)  1.0s: 0.195 (0.014)
+     recon : etat lu a t, fige    0.1s: 0.198 (0.010)  0.5s: 0.203 (0.011)  1.0s: 0.211 (0.011)
+     recon : rollout latent       0.1s: 0.246 (0.037)  0.5s: 0.681 (0.186)  1.0s: 1.184 (0.306)
+
+=== Test glisse  (moyenne sur 10 graine(s), ecart-type entre parentheses)
+  Probe lineaire, R2 :            vx       vy       r     derive
+    jepa                     0.060(0.02)  -0.000(0.00)  0.131(0.01)  -0.003(0.00)
+    recon                    0.106(0.01)  0.001(0.01)  0.137(0.01)  -0.002(0.01)
+  Rollout sur 1 s lu par le probe, RMSE :
+   vx (m/s)
+     persistance (etat vrai)      0.1s: 0.348 (0.000)  0.5s: 1.601 (0.000)  1.0s: 2.925 (0.000)
+     jepa : etat lu a t, fige     0.1s: 4.003 (0.052)  0.5s: 4.157 (0.050)  1.0s: 4.494 (0.044)
+     jepa : rollout latent        0.1s: 3.999 (0.049)  0.5s: 4.132 (0.047)  1.0s: 4.405 (0.058)
+     recon : etat lu a t, fige    0.1s: 3.899 (0.028)  0.5s: 4.042 (0.027)  1.0s: 4.385 (0.025)
+     recon : rollout latent       0.1s: 5.191 (1.042)  0.5s: 14.378 (5.239)  1.0s: 24.446 (8.868)
+   vy (m/s)
+     persistance (etat vrai)      0.1s: 0.242 (0.000)  0.5s: 0.628 (0.000)  1.0s: 0.680 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.511 (0.001)  0.5s: 0.518 (0.001)  1.0s: 0.516 (0.001)
+     jepa : rollout latent        0.1s: 0.511 (0.001)  0.5s: 0.515 (0.001)  1.0s: 0.510 (0.001)
+     recon : etat lu a t, fige    0.1s: 0.511 (0.001)  0.5s: 0.518 (0.002)  1.0s: 0.516 (0.001)
+     recon : rollout latent       0.1s: 0.532 (0.008)  0.5s: 0.810 (0.105)  1.0s: 1.203 (0.228)
+   r (rad/s)
+     persistance (etat vrai)      0.1s: 0.090 (0.000)  0.5s: 0.211 (0.000)  1.0s: 0.256 (0.000)
+     jepa : etat lu a t, fige     0.1s: 0.198 (0.002)  0.5s: 0.201 (0.002)  1.0s: 0.206 (0.001)
+     jepa : rollout latent        0.1s: 0.197 (0.002)  0.5s: 0.196 (0.002)  1.0s: 0.192 (0.002)
+     recon : etat lu a t, fige    0.1s: 0.198 (0.001)  0.5s: 0.201 (0.001)  1.0s: 0.207 (0.002)
+     recon : rollout latent       0.1s: 0.243 (0.033)  0.5s: 0.670 (0.179)  1.0s: 1.155 (0.300)
+
+[ok] bilan sur 10 graine(s) -> D:\rally-jepa\rally-jepa\outputs\eval_cam.csv

@@ -1,0 +1,462 @@
+Debut : 21/10/2026 22:57:47,17 
+  run 0 : depart 1, 500 pas, 100 images, set 23.0 m/s, agressivite 0.8, 23 s reelles
+  run 1 : depart 3, 500 pas, 100 images, set 12.2 m/s, agressivite 0.81, 24 s reelles
+[collect] 1000 lignes
+[apercu] D:\rally-jepa\rally-jepa\outputs\apercu_camera.png
+[test] images recues : 200/200 (100%), dispersion des pixels : 58.2
+[test] CAMERA OK
+  run 0 : depart 1, 681 pas, 137 images, set 23.0 m/s, agressivite 0.8, 36 s reelles  [coupe : choc (61 m/s2) a t=15.6s]
+  run 1 : depart 3, 1000 pas, 200 images, set 12.2 m/s, agressivite 0.81, 48 s reelles
+  run 2 : depart 3, 627 pas, 126 images, set 23.9 m/s, agressivite 0.63, 34 s reelles  [coupe : choc (94 m/s2) a t=14.5s]
+  run 3 : depart 3, 1000 pas, 200 images, limit 16.0 m/s, agressivite 0.77, 46 s reelles
+  run 4 : depart 1, 660 pas, 132 images, set 23.1 m/s, agressivite 0.62, 34 s reelles  [coupe : choc (44 m/s2) a t=15.2s]
+  run 5 : depart 3, 1000 pas, 200 images, limit 11.0 m/s, agressivite 0.87, 48 s reelles
+  run 6 : depart 0, 1000 pas, 200 images, set 22.4 m/s, agressivite 0.65, 49 s reelles
+  run 7 : depart 3, 275 pas, 55 images, limit 15.8 m/s, agressivite 0.8, 25 s reelles  [coupe : voiture bloquee a t=9.5s]
+  run 8 : depart 3, 1000 pas, 200 images, limit 16.7 m/s, agressivite 0.7, 49 s reelles
+  run 9 : depart 1, 1000 pas, 200 images, set 13.6 m/s, agressivite 0.94, 47 s reelles
+  run 10 : depart 1, 1000 pas, 200 images, limit 21.7 m/s, agressivite 0.63, 47 s reelles
+  run 11 : depart 2, 1000 pas, 200 images, limit 18.6 m/s, agressivite 0.71, 48 s reelles
+  run 12 : depart 3, 1000 pas, 200 images, limit 20.2 m/s, agressivite 0.79, 47 s reelles
+  run 13 : depart 0, 1000 pas, 200 images, limit 20.1 m/s, agressivite 0.93, 46 s reelles
+  run 14 : depart 1, 1000 pas, 200 images, set 18.5 m/s, agressivite 0.85, 46 s reelles
+  run 15 : depart 0, 520 pas, 104 images, set 22.0 m/s, agressivite 0.86, 30 s reelles  [coupe : choc (47 m/s2) a t=12.4s]
+  run 16 : depart 2, 1000 pas, 200 images, set 22.2 m/s, agressivite 0.64, 48 s reelles
+  run 17 : depart 3, 1000 pas, 200 images, limit 16.2 m/s, agressivite 0.54, 48 s reelles
+  run 18 : depart 1, 1000 pas, 200 images, set 17.0 m/s, agressivite 0.51, 49 s reelles
+  run 19 : depart 0, 1000 pas, 200 images, limit 10.7 m/s, agressivite 0.52, 47 s reelles
+  run 20 : depart 2, 1000 pas, 200 images, limit 14.2 m/s, agressivite 0.78, 46 s reelles
+  run 21 : depart 1, 0 pas, 0 images, set 12.9 m/s, agressivite 1.0, 4 s reelles  [coupe : choc (76 m/s2) a t=1.7s]
+  run 22 : depart 0, 1000 pas, 200 images, limit 14.4 m/s, agressivite 0.97, 46 s reelles
+  run 23 : depart 2, 254 pas, 51 images, set 22.4 m/s, agressivite 0.58, 18 s reelles  [coupe : choc (75 m/s2) a t=7.1s]
+  run 24 : depart 2, 111 pas, 23 images, set 22.3 m/s, agressivite 0.68, 10 s reelles  [coupe : choc (86 m/s2) a t=4.2s]
+  run 25 : depart 3, 1000 pas, 200 images, limit 19.7 m/s, agressivite 0.73, 48 s reelles
+  run 26 : depart 0, 1000 pas, 200 images, limit 17.6 m/s, agressivite 0.81, 49 s reelles
+  run 27 : depart 3, 1000 pas, 200 images, limit 24.0 m/s, agressivite 0.82, 46 s reelles
+  run 28 : depart 3, 542 pas, 109 images, limit 18.2 m/s, agressivite 0.99, 31 s reelles  [coupe : choc (42 m/s2) a t=12.8s]
+  run 29 : depart 0, 1000 pas, 200 images, limit 14.7 m/s, agressivite 0.89, 49 s reelles
+  run 30 : depart 3, 1000 pas, 200 images, limit 10.9 m/s, agressivite 0.81, 49 s reelles
+  run 31 : depart 2, 1000 pas, 200 images, limit 15.3 m/s, agressivite 0.73, 47 s reelles
+  run 32 : depart 2, 1000 pas, 200 images, set 12.7 m/s, agressivite 0.87, 47 s reelles
+  run 33 : depart 0, 838 pas, 168 images, set 17.5 m/s, agressivite 0.98, 45 s reelles  [coupe : choc (44 m/s2) a t=18.7s]
+  run 34 : depart 2, 1000 pas, 200 images, set 21.1 m/s, agressivite 0.59, 49 s reelles
+  run 35 : depart 2, 1000 pas, 200 images, set 21.3 m/s, agressivite 0.65, 48 s reelles
+  run 36 : depart 0, 1000 pas, 200 images, limit 12.0 m/s, agressivite 0.99, 49 s reelles
+  run 37 : depart 1, 1000 pas, 200 images, set 15.9 m/s, agressivite 0.83, 47 s reelles
+  run 38 : depart 3, 1000 pas, 200 images, set 19.2 m/s, agressivite 0.82, 50 s reelles
+  run 39 : depart 2, 1000 pas, 200 images, set 21.7 m/s, agressivite 0.84, 49 s reelles
+  run 40 : depart 1, 1000 pas, 200 images, limit 13.3 m/s, agressivite 0.54, 46 s reelles
+  run 41 : depart 3, 1000 pas, 200 images, limit 10.5 m/s, agressivite 0.64, 48 s reelles
+  run 42 : depart 1, 1000 pas, 200 images, limit 18.6 m/s, agressivite 0.66, 48 s reelles
+  run 43 : depart 2, 1000 pas, 200 images, limit 11.3 m/s, agressivite 0.67, 48 s reelles
+  run 44 : depart 2, 1000 pas, 200 images, set 18.2 m/s, agressivite 0.79, 47 s reelles
+  run 45 : depart 2, 1000 pas, 200 images, limit 14.4 m/s, agressivite 0.73, 47 s reelles
+  run 46 : depart 3, 1000 pas, 200 images, set 14.4 m/s, agressivite 0.52, 47 s reelles
+  run 47 : depart 3, 1000 pas, 200 images, limit 24.8 m/s, agressivite 0.97, 47 s reelles
+  run 48 : depart 3, 1000 pas, 200 images, limit 20.8 m/s, agressivite 0.78, 48 s reelles
+  run 49 : depart 0, 1000 pas, 200 images, limit 19.9 m/s, agressivite 0.87, 47 s reelles
+  run 50 : depart 2, 181 pas, 37 images, limit 22.9 m/s, agressivite 0.77, 14 s reelles  [coupe : choc (53 m/s2) a t=5.6s]
+  run 51 : depart 2, 1000 pas, 200 images, set 12.4 m/s, agressivite 0.56, 48 s reelles
+  run 52 : depart 1, 0 pas, 0 images, limit 18.7 m/s, agressivite 0.95, 5 s reelles  [coupe : choc (59 m/s2) a t=1.9s]
+  run 53 : depart 0, 1000 pas, 200 images, set 18.0 m/s, agressivite 0.74, 48 s reelles
+  run 54 : depart 1, 1000 pas, 200 images, limit 16.2 m/s, agressivite 0.83, 48 s reelles
+  run 55 : depart 0, 512 pas, 103 images, set 22.3 m/s, agressivite 0.67, 30 s reelles  [coupe : choc (74 m/s2) a t=12.2s]
+  run 56 : depart 3, 1000 pas, 200 images, set 14.6 m/s, agressivite 0.91, 49 s reelles
+  run 57 : depart 0, 1000 pas, 200 images, limit 12.6 m/s, agressivite 0.77, 48 s reelles
+  run 58 : depart 2, 1000 pas, 200 images, limit 22.4 m/s, agressivite 0.96, 47 s reelles
+  run 59 : depart 0, 1000 pas, 200 images, limit 16.0 m/s, agressivite 0.74, 48 s reelles
+  run 60 : depart 2, 1000 pas, 200 images, limit 17.8 m/s, agressivite 0.62, 47 s reelles
+  run 61 : depart 0, 1000 pas, 200 images, limit 10.0 m/s, agressivite 0.74, 48 s reelles
+  run 62 : depart 0, 1000 pas, 200 images, set 12.6 m/s, agressivite 0.89, 48 s reelles
+  run 63 : depart 3, 1000 pas, 200 images, limit 11.3 m/s, agressivite 0.99, 47 s reelles
+  run 64 : depart 3, 1000 pas, 200 images, set 16.2 m/s, agressivite 0.66, 46 s reelles
+  run 65 : depart 3, 1000 pas, 200 images, set 14.3 m/s, agressivite 0.79, 49 s reelles
+  run 66 : depart 2, 1000 pas, 200 images, set 12.0 m/s, agressivite 0.71, 50 s reelles
+  run 67 : depart 3, 1000 pas, 200 images, limit 10.6 m/s, agressivite 0.9, 49 s reelles
+  run 68 : depart 3, 151 pas, 31 images, limit 15.7 m/s, agressivite 0.8, 17 s reelles  [coupe : voiture bloquee a t=7.0s]
+  run 69 : depart 0, 1000 pas, 200 images, set 16.5 m/s, agressivite 0.81, 47 s reelles
+  run 70 : depart 3, 641 pas, 129 images, set 23.4 m/s, agressivite 0.88, 34 s reelles  [coupe : choc (59 m/s2) a t=14.8s]
+  run 71 : depart 3, 636 pas, 128 images, set 18.4 m/s, agressivite 0.73, 36 s reelles  [coupe : choc (83 m/s2) a t=14.7s]
+  run 72 : depart 0, 1000 pas, 200 images, set 13.6 m/s, agressivite 0.9, 47 s reelles
+  run 73 : depart 0, 1000 pas, 200 images, set 22.8 m/s, agressivite 0.97, 49 s reelles
+  run 74 : depart 2, 1000 pas, 200 images, limit 24.1 m/s, agressivite 0.56, 47 s reelles
+  run 75 : depart 3, 1000 pas, 200 images, limit 18.5 m/s, agressivite 0.83, 47 s reelles
+  run 76 : depart 0, 1000 pas, 200 images, limit 17.1 m/s, agressivite 0.91, 46 s reelles
+  run 77 : depart 1, 1000 pas, 200 images, set 13.1 m/s, agressivite 0.89, 49 s reelles
+  run 78 : depart 0, 1000 pas, 200 images, set 21.8 m/s, agressivite 0.83, 48 s reelles
+  run 79 : depart 2, 886 pas, 178 images, set 22.1 m/s, agressivite 0.92, 46 s reelles  [coupe : choc (50 m/s2) a t=19.7s]
+  [relance complete de BeamNG apres 80 runs]
+  run 80 : depart 3, 511 pas, 103 images, limit 18.7 m/s, agressivite 0.92, 30 s reelles  [coupe : choc (41 m/s2) a t=12.2s]
+  run 81 : depart 0, 1000 pas, 200 images, limit 17.7 m/s, agressivite 0.52, 47 s reelles
+  run 82 : depart 1, 1000 pas, 200 images, limit 24.0 m/s, agressivite 0.55, 48 s reelles
+  run 83 : depart 0, 1000 pas, 200 images, limit 12.7 m/s, agressivite 0.78, 48 s reelles
+  run 84 : depart 0, 843 pas, 169 images, set 15.0 m/s, agressivite 0.62, 45 s reelles  [coupe : choc (197 m/s2) a t=18.8s]
+  run 85 : depart 3, 461 pas, 93 images, limit 24.1 m/s, agressivite 0.63, 27 s reelles  [coupe : choc (108 m/s2) a t=11.2s]
+  run 86 : depart 3, 1000 pas, 200 images, set 14.8 m/s, agressivite 0.98, 49 s reelles
+  run 87 : depart 3, 1000 pas, 200 images, limit 16.2 m/s, agressivite 0.92, 46 s reelles
+  run 88 : depart 3, 417 pas, 84 images, set 22.7 m/s, agressivite 0.58, 25 s reelles  [coupe : choc (91 m/s2) a t=10.3s]
+  run 89 : depart 1, 684 pas, 137 images, limit 23.7 m/s, agressivite 0.55, 36 s reelles  [coupe : choc (46 m/s2) a t=15.7s]
+  run 90 : depart 3, 1000 pas, 200 images, limit 12.0 m/s, agressivite 0.79, 48 s reelles
+  run 91 : depart 1, 1000 pas, 200 images, limit 24.0 m/s, agressivite 0.57, 49 s reelles
+  run 92 : depart 2, 1000 pas, 200 images, limit 18.9 m/s, agressivite 0.84, 47 s reelles
+  run 93 : depart 2, 1000 pas, 200 images, set 15.2 m/s, agressivite 0.94, 47 s reelles
+  run 94 : depart 3, 1000 pas, 200 images, limit 13.6 m/s, agressivite 0.6, 46 s reelles
+  run 95 : depart 3, 893 pas, 179 images, set 23.9 m/s, agressivite 0.89, 46 s reelles  [coupe : choc (127 m/s2) a t=19.8s]
+  run 96 : depart 3, 1000 pas, 200 images, set 19.0 m/s, agressivite 0.85, 49 s reelles
+  run 97 : depart 0, 1000 pas, 200 images, limit 22.8 m/s, agressivite 0.74, 47 s reelles
+  run 98 : depart 3, 1000 pas, 200 images, limit 10.7 m/s, agressivite 0.89, 48 s reelles
+  run 99 : depart 1, 1000 pas, 200 images, limit 21.7 m/s, agressivite 0.95, 48 s reelles
+  run 100 : depart 0, 1000 pas, 200 images, limit 13.6 m/s, agressivite 0.98, 47 s reelles
+  run 101 : depart 1, 0 pas, 0 images, set 19.5 m/s, agressivite 0.89, 4 s reelles  [coupe : choc (61 m/s2) a t=1.7s]
+  run 102 : depart 0, 1000 pas, 200 images, set 22.4 m/s, agressivite 0.95, 50 s reelles
+  run 103 : depart 2, 1000 pas, 200 images, set 21.6 m/s, agressivite 0.59, 48 s reelles
+  run 104 : depart 0, 1000 pas, 200 images, limit 14.4 m/s, agressivite 0.55, 47 s reelles
+  run 105 : depart 2, 1000 pas, 200 images, limit 15.0 m/s, agressivite 0.73, 47 s reelles
+  run 106 : depart 0, 624 pas, 125 images, set 17.8 m/s, agressivite 0.67, 40 s reelles  [coupe : voiture bloquee a t=16.5s]
+  run 107 : depart 1, 1000 pas, 200 images, limit 17.3 m/s, agressivite 0.82, 48 s reelles
+  run 108 : depart 1, 1000 pas, 200 images, set 15.3 m/s, agressivite 0.77, 48 s reelles
+  run 109 : depart 3, 1000 pas, 200 images, limit 23.6 m/s, agressivite 0.56, 47 s reelles
+  run 110 : depart 0, 1000 pas, 200 images, limit 20.2 m/s, agressivite 0.76, 46 s reelles
+  run 111 : depart 2, 165 pas, 33 images, set 20.1 m/s, agressivite 0.88, 13 s reelles  [coupe : choc (132 m/s2) a t=5.3s]
+  run 112 : IA inactive (1/3), relance complete de BeamNG
+  run 113 : depart 0, 1000 pas, 200 images, limit 10.9 m/s, agressivite 0.83, 47 s reelles
+  run 114 : depart 2, 1000 pas, 200 images, limit 12.7 m/s, agressivite 0.84, 46 s reelles
+  run 115 : depart 1, 1000 pas, 200 images, limit 19.8 m/s, agressivite 0.59, 47 s reelles
+  run 116 : depart 0, 165 pas, 33 images, limit 23.8 m/s, agressivite 0.55, 18 s reelles  [coupe : voiture bloquee a t=7.3s]
+  run 117 : depart 3, 1000 pas, 200 images, limit 16.9 m/s, agressivite 0.78, 48 s reelles
+  run 118 : depart 2, 1000 pas, 200 images, limit 11.6 m/s, agressivite 0.89, 47 s reelles
+  run 119 : depart 1, 1000 pas, 200 images, limit 21.1 m/s, agressivite 0.88, 48 s reelles
+  run 120 : depart 2, 1000 pas, 200 images, set 12.6 m/s, agressivite 0.55, 46 s reelles
+  run 121 : depart 1, 1000 pas, 200 images, limit 13.7 m/s, agressivite 0.52, 48 s reelles
+  run 122 : depart 2, 1000 pas, 200 images, limit 16.7 m/s, agressivite 0.94, 48 s reelles
+  run 123 : depart 0, 1000 pas, 200 images, limit 11.7 m/s, agressivite 0.68, 47 s reelles
+  run 124 : depart 2, 1000 pas, 200 images, limit 18.5 m/s, agressivite 0.8, 47 s reelles
+  run 125 : depart 0, 1000 pas, 200 images, set 17.0 m/s, agressivite 0.59, 48 s reelles
+  run 126 : depart 3, 1000 pas, 200 images, limit 18.9 m/s, agressivite 0.91, 46 s reelles
+  run 127 : depart 1, 791 pas, 159 images, limit 18.2 m/s, agressivite 0.93, 41 s reelles  [coupe : choc (138 m/s2) a t=17.8s]
+  run 128 : depart 1, 1000 pas, 200 images, set 15.0 m/s, agressivite 0.78, 47 s reelles
+  run 129 : depart 2, 1000 pas, 200 images, limit 23.4 m/s, agressivite 0.52, 47 s reelles
+  run 130 : depart 3, 1000 pas, 200 images, limit 14.6 m/s, agressivite 0.66, 46 s reelles
+  run 131 : depart 3, 1000 pas, 200 images, limit 14.5 m/s, agressivite 0.99, 48 s reelles
+  run 132 : depart 3, 0 pas, 0 images, set 19.6 m/s, agressivite 0.52, 5 s reelles  [coupe : choc (50 m/s2) a t=1.8s]
+  run 133 : depart 0, 1000 pas, 200 images, limit 17.4 m/s, agressivite 0.89, 47 s reelles
+  run 134 : depart 3, 1000 pas, 200 images, limit 13.2 m/s, agressivite 0.6, 48 s reelles
+  run 135 : depart 3, 1000 pas, 200 images, set 19.9 m/s, agressivite 0.56, 46 s reelles
+  run 136 : depart 1, 1000 pas, 200 images, limit 19.3 m/s, agressivite 0.57, 46 s reelles
+  run 137 : depart 0, 1000 pas, 200 images, limit 17.6 m/s, agressivite 0.51, 47 s reelles
+  run 138 : depart 3, 1000 pas, 200 images, limit 14.8 m/s, agressivite 0.77, 48 s reelles
+  run 139 : depart 2, 122 pas, 25 images, set 22.3 m/s, agressivite 0.85, 11 s reelles  [coupe : choc (65 m/s2) a t=4.4s]
+  run 140 : depart 0, 1000 pas, 200 images, limit 15.2 m/s, agressivite 0.86, 46 s reelles
+  run 141 : depart 1, 57 pas, 12 images, limit 16.6 m/s, agressivite 0.97, 8 s reelles  [coupe : choc (48 m/s2) a t=3.1s]
+  run 142 : depart 1, 130 pas, 26 images, set 12.5 m/s, agressivite 0.74, 11 s reelles  [coupe : choc (75 m/s2) a t=4.6s]
+  run 143 : depart 0, 1000 pas, 200 images, limit 15.9 m/s, agressivite 0.92, 48 s reelles
+  run 144 : depart 3, 1000 pas, 200 images, limit 16.3 m/s, agressivite 0.85, 46 s reelles
+  run 145 : depart 3, 455 pas, 91 images, set 21.1 m/s, agressivite 0.65, 27 s reelles  [coupe : choc (186 m/s2) a t=11.1s]
+  run 146 : depart 3, 1000 pas, 200 images, set 12.4 m/s, agressivite 0.72, 48 s reelles
+  run 147 : depart 2, 1000 pas, 200 images, set 18.4 m/s, agressivite 0.68, 47 s reelles
+  run 148 : depart 3, 1000 pas, 200 images, set 14.5 m/s, agressivite 0.61, 46 s reelles
+  run 149 : depart 2, 1000 pas, 200 images, set 14.3 m/s, agressivite 0.57, 47 s reelles
+  run 150 : depart 1, 1000 pas, 200 images, limit 17.6 m/s, agressivite 0.51, 48 s reelles
+  run 151 : depart 0, 1000 pas, 200 images, limit 16.6 m/s, agressivite 0.57, 48 s reelles
+  run 152 : depart 1, 1000 pas, 200 images, set 17.4 m/s, agressivite 0.53, 47 s reelles
+  run 153 : depart 3, 1000 pas, 200 images, limit 13.6 m/s, agressivite 0.52, 49 s reelles
+  run 154 : depart 0, 1000 pas, 200 images, set 23.6 m/s, agressivite 0.7, 47 s reelles
+  run 155 : depart 1, 1000 pas, 200 images, set 14.3 m/s, agressivite 0.62, 47 s reelles
+  run 156 : depart 2, 1000 pas, 200 images, set 13.5 m/s, agressivite 0.81, 47 s reelles
+  run 157 : depart 0, 349 pas, 70 images, set 23.8 m/s, agressivite 0.9, 27 s reelles  [coupe : voiture bloquee a t=11.0s]
+  run 158 : depart 3, 1000 pas, 200 images, limit 17.3 m/s, agressivite 0.89, 48 s reelles
+  run 159 : depart 2, 1000 pas, 200 images, set 23.9 m/s, agressivite 0.52, 46 s reelles
+  run 160 : depart 2, 1000 pas, 200 images, limit 24.5 m/s, agressivite 0.55, 48 s reelles
+  run 161 : depart 0, 1000 pas, 200 images, limit 10.3 m/s, agressivite 0.55, 47 s reelles
+  run 162 : depart 0, 1000 pas, 200 images, set 18.1 m/s, agressivite 0.74, 46 s reelles
+  run 163 : depart 2, 1000 pas, 200 images, limit 17.2 m/s, agressivite 0.6, 47 s reelles
+  run 164 : depart 3, 1000 pas, 200 images, limit 10.5 m/s, agressivite 0.96, 46 s reelles
+  run 165 : depart 2, 1000 pas, 200 images, limit 15.9 m/s, agressivite 0.88, 47 s reelles
+  run 166 : depart 2, 1000 pas, 200 images, set 18.1 m/s, agressivite 0.59, 47 s reelles
+  run 167 : depart 2, 1000 pas, 200 images, limit 16.0 m/s, agressivite 0.77, 47 s reelles
+  run 168 : depart 3, 1000 pas, 200 images, limit 23.9 m/s, agressivite 0.92, 46 s reelles
+  run 169 : depart 2, 165 pas, 33 images, set 17.3 m/s, agressivite 0.9, 18 s reelles  [coupe : voiture bloquee a t=7.3s]
+  run 170 : depart 3, 1000 pas, 200 images, limit 17.6 m/s, agressivite 0.67, 47 s reelles
+  run 171 : depart 3, 1000 pas, 200 images, set 14.1 m/s, agressivite 0.97, 46 s reelles
+  run 172 : depart 0, 1000 pas, 200 images, set 20.3 m/s, agressivite 0.91, 47 s reelles
+  run 173 : depart 0, 1000 pas, 200 images, limit 22.0 m/s, agressivite 0.66, 47 s reelles
+  run 174 : depart 0, 1000 pas, 200 images, limit 16.7 m/s, agressivite 0.94, 46 s reelles
+  run 175 : depart 2, 839 pas, 168 images, set 14.3 m/s, agressivite 1.0, 45 s reelles  [coupe : choc (106 m/s2) a t=18.8s]
+  run 176 : depart 0, 1000 pas, 200 images, set 17.4 m/s, agressivite 0.67, 48 s reelles
+  run 177 : depart 1, 1000 pas, 200 images, set 13.8 m/s, agressivite 0.62, 46 s reelles
+  run 178 : depart 1, 1000 pas, 200 images, set 14.8 m/s, agressivite 0.79, 46 s reelles
+  run 179 : depart 1, 1000 pas, 200 images, limit 16.3 m/s, agressivite 0.61, 46 s reelles
+  run 180 : depart 2, 1000 pas, 200 images, limit 12.8 m/s, agressivite 0.89, 47 s reelles
+  run 181 : depart 1, 1000 pas, 200 images, set 21.7 m/s, agressivite 0.81, 48 s reelles
+  run 182 : depart 0, 515 pas, 103 images, set 23.3 m/s, agressivite 0.93, 29 s reelles  [coupe : choc (86 m/s2) a t=12.3s]
+  run 183 : depart 2, 122 pas, 25 images, set 14.7 m/s, agressivite 0.54, 11 s reelles  [coupe : choc (70 m/s2) a t=4.4s]
+  run 184 : depart 0, 1000 pas, 200 images, limit 23.1 m/s, agressivite 0.82, 46 s reelles
+  run 185 : depart 2, 1000 pas, 200 images, limit 21.7 m/s, agressivite 0.7, 47 s reelles
+  run 186 : depart 2, 1000 pas, 200 images, limit 22.2 m/s, agressivite 0.92, 47 s reelles
+  run 187 : depart 1, 200 pas, 40 images, set 15.6 m/s, agressivite 0.56, 14 s reelles  [coupe : choc (60 m/s2) a t=6.0s]
+  run 188 : depart 0, 1000 pas, 200 images, set 21.0 m/s, agressivite 0.67, 48 s reelles
+  run 189 : depart 2, 1000 pas, 200 images, limit 19.1 m/s, agressivite 0.71, 47 s reelles
+  run 190 : depart 1, 1000 pas, 200 images, limit 10.9 m/s, agressivite 0.62, 48 s reelles
+  run 191 : depart 1, 1000 pas, 200 images, set 14.6 m/s, agressivite 0.72, 46 s reelles
+  run 192 : depart 1, 1000 pas, 200 images, set 14.6 m/s, agressivite 0.87, 47 s reelles
+  [relance complete de BeamNG apres 80 runs]
+  run 193 : depart 3, 1000 pas, 200 images, limit 16.3 m/s, agressivite 0.97, 48 s reelles
+  run 194 : depart 1, 1000 pas, 200 images, limit 17.3 m/s, agressivite 0.95, 47 s reelles
+  run 195 : depart 3, 1000 pas, 200 images, limit 10.5 m/s, agressivite 0.73, 46 s reelles
+  run 196 : depart 0, 877 pas, 176 images, set 20.7 m/s, agressivite 0.59, 47 s reelles  [coupe : choc (202 m/s2) a t=19.5s]
+  run 197 : depart 2, 143 pas, 29 images, set 17.7 m/s, agressivite 0.75, 12 s reelles  [coupe : choc (134 m/s2) a t=4.8s]
+  run 198 : depart 1, 1000 pas, 200 images, set 17.2 m/s, agressivite 0.87, 46 s reelles
+  run 199 : depart 2, 1000 pas, 200 images, set 21.4 m/s, agressivite 0.73, 47 s reelles
+  run 200 : depart 1, 1000 pas, 200 images, set 16.9 m/s, agressivite 0.55, 47 s reelles
+  run 201 : depart 0, 530 pas, 106 images, set 21.7 m/s, agressivite 0.6, 31 s reelles  [coupe : choc (59 m/s2) a t=12.6s]
+  run 202 : depart 2, 1000 pas, 200 images, limit 23.1 m/s, agressivite 0.99, 46 s reelles
+  run 203 : depart 2, 1000 pas, 200 images, set 23.3 m/s, agressivite 0.97, 46 s reelles
+  run 204 : depart 3, 1000 pas, 200 images, limit 15.4 m/s, agressivite 0.76, 48 s reelles
+  run 205 : depart 2, 1000 pas, 200 images, set 22.6 m/s, agressivite 0.64, 47 s reelles
+  run 206 : depart 2, 151 pas, 31 images, limit 17.8 m/s, agressivite 0.87, 19 s reelles  [coupe : voiture bloquee a t=7.0s]
+  run 207 : depart 0, 1000 pas, 200 images, limit 18.0 m/s, agressivite 0.57, 47 s reelles
+  run 208 : depart 1, 748 pas, 150 images, set 23.8 m/s, agressivite 0.98, 39 s reelles  [coupe : choc (71 m/s2) a t=16.9s]
+  run 209 : IA inactive (1/3), relance complete de BeamNG
+  run 210 : depart 0, 1000 pas, 200 images, set 15.3 m/s, agressivite 0.75, 47 s reelles
+  run 211 : depart 2, 1000 pas, 200 images, limit 22.2 m/s, agressivite 0.92, 46 s reelles
+  run 212 : depart 3, 1000 pas, 200 images, set 21.6 m/s, agressivite 0.66, 46 s reelles
+  run 213 : depart 3, 1000 pas, 200 images, set 12.4 m/s, agressivite 0.86, 49 s reelles
+  run 214 : depart 0, 1000 pas, 200 images, limit 23.7 m/s, agressivite 0.81, 48 s reelles
+  run 215 : depart 1, 598 pas, 120 images, limit 22.6 m/s, agressivite 0.98, 32 s reelles  [coupe : choc (50 m/s2) a t=13.9s]
+  run 216 : depart 3, 540 pas, 108 images, limit 18.3 m/s, agressivite 0.75, 31 s reelles  [coupe : choc (59 m/s2) a t=12.8s]
+  run 217 : depart 2, 1000 pas, 200 images, set 17.8 m/s, agressivite 0.51, 50 s reelles
+  run 218 : depart 0, 1000 pas, 200 images, limit 17.0 m/s, agressivite 0.95, 48 s reelles
+  run 219 : depart 3, 1000 pas, 200 images, limit 14.4 m/s, agressivite 0.69, 46 s reelles
+  run 220 : depart 0, 1000 pas, 200 images, limit 18.2 m/s, agressivite 0.84, 47 s reelles
+  run 221 : depart 3, 1000 pas, 200 images, set 15.3 m/s, agressivite 0.89, 46 s reelles
+  run 222 : depart 2, 1000 pas, 200 images, limit 12.3 m/s, agressivite 0.73, 48 s reelles
+  run 223 : depart 2, 146 pas, 30 images, set 17.8 m/s, agressivite 0.57, 12 s reelles  [coupe : choc (53 m/s2) a t=4.9s]
+  run 224 : depart 1, 728 pas, 146 images, limit 19.2 m/s, agressivite 0.91, 38 s reelles  [coupe : choc (163 m/s2) a t=16.5s]
+  run 225 : depart 0, 1000 pas, 200 images, limit 11.7 m/s, agressivite 0.66, 47 s reelles
+  run 226 : depart 1, 1000 pas, 200 images, limit 23.7 m/s, agressivite 0.64, 48 s reelles
+  run 227 : depart 0, 1000 pas, 200 images, set 12.4 m/s, agressivite 0.72, 47 s reelles
+  run 228 : depart 3, 1000 pas, 200 images, limit 19.7 m/s, agressivite 0.95, 47 s reelles
+  run 229 : depart 1, 753 pas, 151 images, set 19.8 m/s, agressivite 0.66, 39 s reelles  [coupe : choc (40 m/s2) a t=17.0s]
+  run 230 : depart 3, 853 pas, 171 images, set 23.4 m/s, agressivite 0.66, 47 s reelles  [coupe : choc (69 m/s2) a t=19.0s]
+  run 231 : depart 2, 206 pas, 42 images, set 15.4 m/s, agressivite 0.66, 15 s reelles  [coupe : choc (134 m/s2) a t=6.1s]
+  run 232 : depart 1, 716 pas, 144 images, set 22.8 m/s, agressivite 0.71, 37 s reelles  [coupe : choc (97 m/s2) a t=16.3s]
+  run 233 : depart 3, 797 pas, 160 images, set 13.0 m/s, agressivite 0.61, 44 s reelles  [coupe : choc (42 m/s2) a t=17.9s]
+  run 234 : depart 0, 1000 pas, 200 images, limit 19.5 m/s, agressivite 0.87, 47 s reelles
+  run 235 : depart 0, 1000 pas, 200 images, limit 20.4 m/s, agressivite 0.97, 47 s reelles
+  run 236 : depart 3, 1000 pas, 200 images, set 15.2 m/s, agressivite 0.63, 46 s reelles
+  run 237 : depart 0, 1000 pas, 200 images, set 14.0 m/s, agressivite 0.59, 48 s reelles
+  run 238 : depart 1, 456 pas, 92 images, set 23.9 m/s, agressivite 0.95, 26 s reelles  [coupe : choc (57 m/s2) a t=11.1s]
+  run 239 : depart 3, 1000 pas, 200 images, set 12.7 m/s, agressivite 0.82, 49 s reelles
+  run 240 : depart 1, 1000 pas, 200 images, limit 12.0 m/s, agressivite 0.66, 48 s reelles
+  run 241 : depart 1, 1000 pas, 200 images, limit 18.0 m/s, agressivite 0.52, 46 s reelles
+  run 242 : depart 3, 1000 pas, 200 images, set 14.2 m/s, agressivite 0.89, 49 s reelles
+  run 243 : depart 0, 1000 pas, 200 images, set 13.7 m/s, agressivite 0.64, 47 s reelles
+  run 244 : depart 1, 1000 pas, 200 images, limit 19.1 m/s, agressivite 0.69, 48 s reelles
+  run 245 : depart 1, 1000 pas, 200 images, set 13.7 m/s, agressivite 0.5, 50 s reelles
+  run 246 : depart 3, 690 pas, 138 images, set 23.4 m/s, agressivite 0.62, 37 s reelles  [coupe : choc (48 m/s2) a t=15.8s]
+  run 247 : depart 3, 1000 pas, 200 images, limit 17.1 m/s, agressivite 0.55, 50 s reelles
+  run 248 : depart 2, 1000 pas, 200 images, limit 16.6 m/s, agressivite 0.77, 48 s reelles
+  run 249 : depart 3, 1000 pas, 200 images, limit 16.6 m/s, agressivite 0.73, 46 s reelles
+  run 250 : depart 3, 1000 pas, 200 images, set 19.1 m/s, agressivite 0.92, 47 s reelles
+  run 251 : depart 1, 1000 pas, 200 images, limit 24.4 m/s, agressivite 0.65, 47 s reelles
+  run 252 : depart 2, 1000 pas, 200 images, set 12.6 m/s, agressivite 0.63, 49 s reelles
+  run 253 : depart 0, 1000 pas, 200 images, limit 11.7 m/s, agressivite 0.7, 47 s reelles
+  run 254 : depart 0, 1000 pas, 200 images, set 16.8 m/s, agressivite 0.58, 48 s reelles
+  run 255 : depart 2, 1000 pas, 200 images, limit 11.4 m/s, agressivite 0.76, 47 s reelles
+  run 256 : depart 3, 636 pas, 128 images, limit 13.3 m/s, agressivite 0.66, 36 s reelles  [coupe : choc (40 m/s2) a t=14.7s]
+  run 257 : depart 3, 1000 pas, 200 images, set 15.8 m/s, agressivite 0.75, 46 s reelles
+  run 258 : depart 2, 159 pas, 32 images, limit 20.8 m/s, agressivite 0.85, 13 s reelles  [coupe : choc (58 m/s2) a t=5.2s]
+  run 259 : depart 2, 1000 pas, 200 images, limit 14.3 m/s, agressivite 0.93, 49 s reelles
+  run 260 : depart 2, 155 pas, 31 images, set 18.0 m/s, agressivite 0.63, 13 s reelles  [coupe : choc (47 m/s2) a t=5.1s]
+  run 261 : depart 2, 212 pas, 43 images, set 17.2 m/s, agressivite 0.86, 15 s reelles  [coupe : choc (45 m/s2) a t=6.2s]
+  run 262 : depart 2, 1000 pas, 200 images, set 18.4 m/s, agressivite 0.73, 47 s reelles
+  run 263 : depart 1, 1000 pas, 200 images, limit 16.6 m/s, agressivite 0.99, 48 s reelles
+  run 264 : depart 0, 534 pas, 107 images, set 22.2 m/s, agressivite 0.53, 31 s reelles  [coupe : choc (88 m/s2) a t=12.7s]
+  run 265 : depart 2, 1000 pas, 200 images, limit 15.8 m/s, agressivite 0.53, 49 s reelles
+  run 266 : depart 0, 403 pas, 81 images, set 18.6 m/s, agressivite 0.68, 30 s reelles  [coupe : voiture bloquee a t=12.0s]
+  run 267 : depart 0, 1000 pas, 200 images, limit 20.7 m/s, agressivite 0.72, 47 s reelles
+  run 268 : depart 2, 900 pas, 180 images, set 16.5 m/s, agressivite 0.51, 46 s reelles  [coupe : choc (84 m/s2) a t=20.0s]
+  run 269 : depart 3, 1000 pas, 200 images, limit 23.1 m/s, agressivite 0.69, 47 s reelles
+  run 270 : depart 3, 1000 pas, 200 images, set 16.5 m/s, agressivite 0.57, 49 s reelles
+  run 271 : depart 0, 1000 pas, 200 images, set 15.8 m/s, agressivite 0.57, 46 s reelles
+  run 272 : depart 2, 1000 pas, 200 images, set 20.8 m/s, agressivite 0.6, 48 s reelles
+  run 273 : depart 2, 1000 pas, 200 images, limit 22.4 m/s, agressivite 0.77, 47 s reelles
+  run 274 : depart 1, 1000 pas, 200 images, limit 11.8 m/s, agressivite 0.72, 48 s reelles
+  run 275 : depart 3, 1000 pas, 200 images, set 15.7 m/s, agressivite 0.61, 49 s reelles
+  run 276 : depart 1, 1000 pas, 200 images, set 22.6 m/s, agressivite 0.56, 50 s reelles
+  run 277 : depart 3, 1000 pas, 200 images, set 12.1 m/s, agressivite 0.51, 46 s reelles
+  run 278 : depart 1, 1000 pas, 200 images, set 14.4 m/s, agressivite 0.74, 48 s reelles
+  run 279 : depart 3, 1000 pas, 200 images, limit 14.5 m/s, agressivite 0.79, 46 s reelles
+  run 280 : depart 2, 1000 pas, 200 images, limit 20.4 m/s, agressivite 0.55, 48 s reelles
+  run 281 : depart 0, 1000 pas, 200 images, limit 21.2 m/s, agressivite 0.53, 47 s reelles
+  run 282 : depart 2, 166 pas, 34 images, set 17.8 m/s, agressivite 0.53, 13 s reelles  [coupe : choc (107 m/s2) a t=5.3s]
+  run 283 : depart 3, 1000 pas, 200 images, set 19.9 m/s, agressivite 0.82, 48 s reelles
+  run 284 : depart 3, 1000 pas, 200 images, set 15.9 m/s, agressivite 0.94, 46 s reelles
+  run 285 : depart 3, 800 pas, 160 images, set 18.2 m/s, agressivite 0.98, 44 s reelles  [coupe : choc (83 m/s2) a t=18.0s]
+  run 286 : depart 1, 1000 pas, 200 images, set 14.8 m/s, agressivite 0.79, 49 s reelles
+  run 287 : depart 3, 1000 pas, 200 images, limit 15.9 m/s, agressivite 0.91, 48 s reelles
+  run 288 : depart 2, 1000 pas, 200 images, limit 17.9 m/s, agressivite 0.99, 47 s reelles
+  run 289 : depart 1, 678 pas, 136 images, set 19.1 m/s, agressivite 0.79, 36 s reelles  [coupe : choc (118 m/s2) a t=15.5s]
+  [relance complete de BeamNG apres 80 runs]
+  run 290 : depart 2, 107 pas, 22 images, set 21.2 m/s, agressivite 0.81, 10 s reelles  [coupe : choc (45 m/s2) a t=4.1s]
+  run 291 : depart 1, 581 pas, 117 images, limit 22.9 m/s, agressivite 0.72, 31 s reelles  [coupe : choc (45 m/s2) a t=13.6s]
+  run 292 : depart 1, 1000 pas, 200 images, limit 12.8 m/s, agressivite 0.75, 46 s reelles
+  run 293 : depart 0, 1000 pas, 200 images, set 23.0 m/s, agressivite 0.97, 49 s reelles
+  run 294 : depart 3, 1000 pas, 200 images, set 21.1 m/s, agressivite 0.92, 47 s reelles
+  run 295 : depart 2, 1000 pas, 200 images, set 22.2 m/s, agressivite 0.75, 48 s reelles
+  run 296 : depart 0, 1000 pas, 200 images, set 14.7 m/s, agressivite 0.62, 48 s reelles
+  run 297 : depart 2, 153 pas, 31 images, set 20.3 m/s, agressivite 0.63, 13 s reelles  [coupe : choc (68 m/s2) a t=5.0s]
+  run 298 : depart 2, 1000 pas, 200 images, set 15.6 m/s, agressivite 0.87, 48 s reelles
+  run 299 : depart 1, 1000 pas, 200 images, set 20.4 m/s, agressivite 0.78, 51 s reelles
+  run 300 : depart 1, 674 pas, 135 images, set 14.8 m/s, agressivite 0.91, 36 s reelles  [coupe : choc (127 m/s2) a t=15.5s]
+  run 301 : depart 3, 765 pas, 153 images, set 14.1 m/s, agressivite 0.8, 47 s reelles  [coupe : voiture bloquee a t=19.3s]
+  run 302 : depart 2, 410 pas, 82 images, set 21.4 m/s, agressivite 0.72, 31 s reelles  [coupe : voiture bloquee a t=12.2s]
+  run 303 : depart 3, 1000 pas, 200 images, limit 14.0 m/s, agressivite 0.75, 47 s reelles
+  run 304 : depart 3, 1000 pas, 200 images, set 21.8 m/s, agressivite 0.84, 46 s reelles
+  run 305 : depart 3, 587 pas, 118 images, limit 17.2 m/s, agressivite 0.67, 34 s reelles  [coupe : choc (58 m/s2) a t=13.7s]
+  run 306 : depart 1, 710 pas, 142 images, set 22.4 m/s, agressivite 0.56, 37 s reelles  [coupe : choc (55 m/s2) a t=16.2s]
+  run 307 : depart 1, 1000 pas, 200 images, set 18.3 m/s, agressivite 0.79, 46 s reelles
+  run 308 : depart 2, 1000 pas, 200 images, limit 22.9 m/s, agressivite 0.74, 49 s reelles
+  run 309 : depart 3, 1000 pas, 200 images, set 16.2 m/s, agressivite 0.69, 46 s reelles
+  run 310 : depart 1, 697 pas, 140 images, limit 24.6 m/s, agressivite 0.81, 36 s reelles  [coupe : choc (41 m/s2) a t=15.9s]
+  run 311 : depart 2, 1000 pas, 200 images, limit 14.3 m/s, agressivite 0.79, 48 s reelles
+  run 312 : depart 2, 1000 pas, 200 images, limit 21.2 m/s, agressivite 0.99, 47 s reelles
+  run 313 : depart 2, 1000 pas, 200 images, set 18.7 m/s, agressivite 0.96, 47 s reelles
+  run 314 : depart 2, 1000 pas, 200 images, set 14.2 m/s, agressivite 0.71, 48 s reelles
+  run 315 : depart 2, 1000 pas, 200 images, limit 15.8 m/s, agressivite 0.85, 47 s reelles
+  run 316 : depart 0, 481 pas, 97 images, set 23.0 m/s, agressivite 0.66, 27 s reelles  [coupe : choc (73 m/s2) a t=11.6s]
+  run 317 : depart 3, 1000 pas, 200 images, set 14.4 m/s, agressivite 0.59, 49 s reelles
+  run 318 : depart 3, 1000 pas, 200 images, set 20.7 m/s, agressivite 0.78, 46 s reelles
+  run 319 : depart 3, 689 pas, 138 images, set 20.0 m/s, agressivite 0.85, 38 s reelles  [coupe : choc (133 m/s2) a t=15.8s]
+  run 320 : depart 0, 1000 pas, 200 images, limit 23.8 m/s, agressivite 0.55, 48 s reelles
+  run 321 : depart 2, 1000 pas, 200 images, set 15.3 m/s, agressivite 0.7, 46 s reelles
+  run 322 : depart 2, 1000 pas, 200 images, set 14.5 m/s, agressivite 0.62, 47 s reelles
+  run 323 : depart 0, 1000 pas, 200 images, set 15.1 m/s, agressivite 0.74, 48 s reelles
+  run 324 : depart 1, 1000 pas, 200 images, limit 24.2 m/s, agressivite 0.63, 46 s reelles
+  run 325 : depart 1, 1000 pas, 200 images, set 16.2 m/s, agressivite 0.62, 49 s reelles
+  run 326 : depart 2, 290 pas, 58 images, set 20.4 m/s, agressivite 0.95, 20 s reelles  [coupe : choc (64 m/s2) a t=7.8s]
+  run 327 : IA inactive (1/3), relance complete de BeamNG
+  run 328 : depart 2, 1000 pas, 200 images, set 12.5 m/s, agressivite 0.91, 46 s reelles
+  run 329 : depart 3, 1000 pas, 200 images, limit 15.6 m/s, agressivite 0.63, 48 s reelles
+  run 330 : depart 3, 1000 pas, 200 images, limit 20.3 m/s, agressivite 0.87, 47 s reelles
+  run 331 : depart 3, 619 pas, 124 images, set 15.5 m/s, agressivite 0.99, 35 s reelles  [coupe : choc (49 m/s2) a t=14.4s]
+  run 332 : depart 2, 1000 pas, 200 images, set 12.6 m/s, agressivite 0.79, 46 s reelles
+  run 333 : depart 1, 698 pas, 140 images, set 21.5 m/s, agressivite 0.72, 37 s reelles  [coupe : choc (69 m/s2) a t=15.9s]
+  run 334 : depart 1, 736 pas, 148 images, limit 22.7 m/s, agressivite 0.75, 38 s reelles  [coupe : choc (62 m/s2) a t=16.7s]
+  run 335 : depart 2, 1000 pas, 200 images, limit 18.5 m/s, agressivite 0.63, 47 s reelles
+  run 336 : depart 2, 1000 pas, 200 images, set 23.8 m/s, agressivite 0.6, 47 s reelles
+  run 337 : depart 0, 1000 pas, 200 images, limit 12.2 m/s, agressivite 0.74, 47 s reelles
+  run 338 : depart 2, 1000 pas, 200 images, limit 12.4 m/s, agressivite 0.83, 47 s reelles
+  run 339 : depart 1, 645 pas, 129 images, set 20.2 m/s, agressivite 0.54, 37 s reelles  [coupe : choc (86 m/s2) a t=14.9s]
+  run 340 : depart 0, 1000 pas, 200 images, set 21.4 m/s, agressivite 0.5, 47 s reelles
+  run 341 : depart 3, 151 pas, 31 images, limit 19.9 m/s, agressivite 0.85, 17 s reelles  [coupe : voiture bloquee a t=7.0s]
+  run 342 : depart 3, 1000 pas, 200 images, limit 10.0 m/s, agressivite 0.63, 47 s reelles
+  run 343 : depart 2, 1000 pas, 200 images, set 12.1 m/s, agressivite 0.84, 47 s reelles
+  run 344 : depart 2, 1000 pas, 200 images, set 23.7 m/s, agressivite 0.76, 47 s reelles
+  run 345 : depart 0, 1000 pas, 200 images, set 12.1 m/s, agressivite 0.52, 47 s reelles
+  run 346 : depart 3, 501 pas, 101 images, limit 19.4 m/s, agressivite 0.97, 29 s reelles  [coupe : choc (57 m/s2) a t=12.0s]
+  run 347 : depart 3, 1000 pas, 200 images, limit 15.2 m/s, agressivite 0.73, 50 s reelles
+  run 348 : depart 1, 1000 pas, 200 images, set 16.7 m/s, agressivite 0.58, 49 s reelles
+  run 349 : depart 0, 1000 pas, 200 images, limit 14.4 m/s, agressivite 0.77, 49 s reelles
+  run 350 : depart 0, 1000 pas, 200 images, limit 13.3 m/s, agressivite 0.7, 47 s reelles
+  run 351 : depart 3, 462 pas, 93 images, set 21.1 m/s, agressivite 0.78, 27 s reelles  [coupe : choc (153 m/s2) a t=11.2s]
+  run 352 : depart 3, 1000 pas, 200 images, limit 17.8 m/s, agressivite 0.83, 48 s reelles
+  run 353 : depart 3, 1000 pas, 200 images, limit 12.7 m/s, agressivite 0.82, 46 s reelles
+  run 354 : depart 3, 665 pas, 133 images, set 23.1 m/s, agressivite 0.75, 35 s reelles  [coupe : choc (61 m/s2) a t=15.3s]
+  run 355 : depart 1, 616 pas, 124 images, set 24.0 m/s, agressivite 0.72, 33 s reelles  [coupe : choc (48 m/s2) a t=14.3s]
+  run 356 : depart 1, 1000 pas, 200 images, limit 14.4 m/s, agressivite 0.61, 47 s reelles
+  run 357 : depart 0, 1000 pas, 200 images, set 15.0 m/s, agressivite 0.75, 49 s reelles
+  run 358 : depart 3, 1000 pas, 200 images, set 19.5 m/s, agressivite 0.51, 47 s reelles
+  run 359 : depart 0, 1000 pas, 200 images, limit 23.6 m/s, agressivite 0.85, 48 s reelles
+  run 360 : depart 0, 1000 pas, 200 images, set 21.8 m/s, agressivite 0.67, 50 s reelles
+  run 361 : depart 3, 1000 pas, 200 images, set 13.6 m/s, agressivite 0.65, 46 s reelles
+  run 362 : depart 0, 1000 pas, 200 images, limit 11.7 m/s, agressivite 0.7, 47 s reelles
+  run 363 : depart 1, 803 pas, 161 images, set 16.7 m/s, agressivite 0.62, 42 s reelles  [coupe : choc (76 m/s2) a t=18.0s]
+  run 364 : depart 1, 1000 pas, 200 images, set 20.1 m/s, agressivite 0.82, 46 s reelles
+  run 365 : depart 0, 1000 pas, 200 images, set 18.0 m/s, agressivite 0.75, 48 s reelles
+  run 366 : depart 0, 1000 pas, 200 images, limit 18.4 m/s, agressivite 0.71, 48 s reelles
+  run 367 : depart 3, 730 pas, 146 images, set 23.3 m/s, agressivite 0.72, 38 s reelles  [coupe : choc (51 m/s2) a t=16.6s]
+  run 368 : depart 2, 1000 pas, 200 images, limit 13.9 m/s, agressivite 0.65, 49 s reelles
+  run 369 : depart 3, 1000 pas, 200 images, set 13.2 m/s, agressivite 0.87, 47 s reelles
+  run 370 : depart 2, 1000 pas, 200 images, limit 17.2 m/s, agressivite 0.87, 47 s reelles
+  run 371 : depart 1, 1000 pas, 200 images, limit 19.9 m/s, agressivite 0.86, 47 s reelles
+  run 372 : depart 0, 1000 pas, 200 images, set 14.2 m/s, agressivite 0.81, 50 s reelles
+  run 373 : depart 0, 1000 pas, 200 images, limit 16.8 m/s, agressivite 0.83, 47 s reelles
+  run 374 : depart 3, 1000 pas, 200 images, limit 15.1 m/s, agressivite 0.94, 46 s reelles
+  run 375 : depart 3, 557 pas, 112 images, set 21.8 m/s, agressivite 0.91, 32 s reelles  [coupe : choc (209 m/s2) a t=13.1s]
+  run 376 : depart 3, 1000 pas, 200 images, limit 14.1 m/s, agressivite 0.68, 48 s reelles
+  run 377 : depart 1, 743 pas, 149 images, limit 21.5 m/s, agressivite 0.57, 39 s reelles  [coupe : choc (82 m/s2) a t=16.8s]
+  run 378 : depart 0, 1000 pas, 200 images, limit 11.6 m/s, agressivite 0.82, 47 s reelles
+  run 379 : depart 3, 1000 pas, 200 images, set 18.0 m/s, agressivite 0.74, 47 s reelles
+  run 380 : depart 3, 1000 pas, 200 images, set 12.7 m/s, agressivite 0.81, 49 s reelles
+  run 381 : depart 1, 1000 pas, 200 images, set 22.7 m/s, agressivite 0.96, 48 s reelles
+  run 382 : depart 0, 1000 pas, 200 images, set 21.3 m/s, agressivite 0.99, 49 s reelles
+  run 383 : depart 0, 1000 pas, 200 images, limit 24.2 m/s, agressivite 0.56, 47 s reelles
+  run 384 : depart 2, 1000 pas, 200 images, set 17.1 m/s, agressivite 0.77, 49 s reelles
+  run 385 : depart 1, 1000 pas, 200 images, limit 19.4 m/s, agressivite 0.58, 47 s reelles
+  run 386 : depart 3, 646 pas, 130 images, set 23.1 m/s, agressivite 0.66, 34 s reelles  [coupe : choc (46 m/s2) a t=14.9s]
+  run 387 : depart 2, 1000 pas, 200 images, limit 15.1 m/s, agressivite 0.77, 49 s reelles
+  run 388 : depart 3, 1000 pas, 200 images, set 14.4 m/s, agressivite 0.61, 46 s reelles
+  run 389 : depart 1, 1000 pas, 200 images, set 14.7 m/s, agressivite 0.94, 47 s reelles
+  run 390 : depart 2, 1000 pas, 200 images, limit 15.0 m/s, agressivite 0.61, 47 s reelles
+  run 391 : depart 2, 1000 pas, 200 images, limit 13.1 m/s, agressivite 0.89, 47 s reelles
+  run 392 : depart 3, 1000 pas, 200 images, limit 22.2 m/s, agressivite 0.5, 48 s reelles
+  run 393 : depart 1, 1000 pas, 200 images, limit 22.3 m/s, agressivite 0.97, 48 s reelles
+  run 394 : depart 0, 1000 pas, 200 images, set 15.5 m/s, agressivite 0.9, 49 s reelles
+  run 395 : depart 2, 1000 pas, 200 images, limit 23.7 m/s, agressivite 0.98, 47 s reelles
+  run 396 : depart 0, 614 pas, 123 images, set 18.4 m/s, agressivite 0.73, 34 s reelles  [coupe : choc (54 m/s2) a t=14.3s]
+  run 397 : depart 3, 430 pas, 86 images, set 23.3 m/s, agressivite 0.63, 26 s reelles  [coupe : choc (43 m/s2) a t=10.6s]
+  run 398 : IA inactive (1/3), relance complete de BeamNG
+  run 399 : depart 0, 1000 pas, 200 images, limit 16.0 m/s, agressivite 0.55, 47 s reelles
+  run 400 : depart 2, 1000 pas, 200 images, limit 13.6 m/s, agressivite 0.9, 47 s reelles
+  run 401 : depart 0, 484 pas, 97 images, set 14.1 m/s, agressivite 0.8, 34 s reelles  [coupe : voiture bloquee a t=13.7s]
+  run 402 : depart 2, 895 pas, 179 images, set 15.9 m/s, agressivite 0.67, 46 s reelles  [coupe : choc (41 m/s2) a t=19.9s]
+  run 403 : depart 0, 1000 pas, 200 images, limit 11.0 m/s, agressivite 0.89, 47 s reelles
+  run 404 : depart 2, 253 pas, 51 images, set 17.3 m/s, agressivite 0.78, 18 s reelles  [coupe : choc (72 m/s2) a t=7.0s]
+  run 405 : depart 3, 1000 pas, 200 images, set 12.0 m/s, agressivite 1.0, 47 s reelles
+  run 406 : depart 1, 1000 pas, 200 images, limit 14.2 m/s, agressivite 0.68, 47 s reelles
+  run 407 : depart 1, 1000 pas, 200 images, set 16.3 m/s, agressivite 0.92, 47 s reelles
+  run 408 : depart 2, 1000 pas, 200 images, limit 14.9 m/s, agressivite 0.87, 47 s reelles
+  run 409 : depart 3, 1000 pas, 200 images, set 12.9 m/s, agressivite 0.77, 47 s reelles
+  run 410 : depart 2, 1000 pas, 200 images, limit 11.7 m/s, agressivite 0.59, 47 s reelles
+  run 411 : depart 1, 1000 pas, 200 images, limit 13.9 m/s, agressivite 0.59, 48 s reelles
+  run 412 : depart 0, 564 pas, 113 images, set 14.7 m/s, agressivite 0.68, 38 s reelles  [coupe : voiture bloquee a t=15.3s]
+  run 413 : depart 2, 1000 pas, 200 images, limit 10.8 m/s, agressivite 0.94, 48 s reelles
+  run 414 : depart 3, 617 pas, 124 images, limit 17.5 m/s, agressivite 0.58, 35 s reelles  [coupe : choc (62 m/s2) a t=14.3s]
+  run 415 : depart 2, 1000 pas, 200 images, limit 25.0 m/s, agressivite 0.87, 47 s reelles
+  run 416 : depart 3, 1000 pas, 200 images, limit 11.2 m/s, agressivite 0.94, 46 s reelles
+  run 417 : depart 0, 1000 pas, 200 images, set 13.3 m/s, agressivite 0.83, 47 s reelles
+  run 418 : depart 0, 1000 pas, 200 images, set 14.5 m/s, agressivite 0.83, 47 s reelles
+  run 419 : depart 3, 1000 pas, 200 images, limit 24.1 m/s, agressivite 0.52, 48 s reelles
+  run 420 : depart 1, 159 pas, 32 images, set 23.8 m/s, agressivite 0.66, 18 s reelles  [coupe : voiture bloquee a t=7.2s]
+  run 421 : depart 2, 1000 pas, 200 images, limit 10.2 m/s, agressivite 0.88, 47 s reelles
+  run 422 : depart 1, 4 pas, 1 images, limit 10.2 m/s, agressivite 0.85, 6 s reelles  [coupe : choc (71 m/s2) a t=2.1s]
+  run 423 : depart 3, 1000 pas, 200 images, limit 16.7 m/s, agressivite 0.56, 48 s reelles
+  run 424 : depart 3, 1000 pas, 200 images, set 20.7 m/s, agressivite 0.83, 46 s reelles
+  run 425 : depart 2, 1000 pas, 200 images, set 14.8 m/s, agressivite 0.93, 48 s reelles
+  run 426 : depart 1, 656 pas, 132 images, set 21.7 m/s, agressivite 0.77, 34 s reelles  [coupe : choc (74 m/s2) a t=15.1s]
+  run 427 : depart 1, 1000 pas, 200 images, limit 14.8 m/s, agressivite 0.76, 46 s reelles
+  run 428 : depart 2, 1000 pas, 200 images, limit 12.6 m/s, agressivite 0.67, 48 s reelles
+  run 429 : depart 2, 1000 pas, 200 images, limit 20.9 m/s, agressivite 0.54, 47 s reelles
+  run 430 : depart 3, 1000 pas, 200 images, limit 16.5 m/s, agressivite 0.7, 46 s reelles
+  run 431 : depart 1, 1000 pas, 200 images, limit 10.1 m/s, agressivite 0.96, 45 s reelles
+  run 432 : depart 2, 221 pas, 45 images, set 19.7 m/s, agressivite 0.72, 15 s reelles  [coupe : choc (51 m/s2) a t=6.4s]
+  run 433 : depart 2, 1000 pas, 200 images, set 18.3 m/s, agressivite 0.81, 47 s reelles
+  run 434 : depart 3, 1000 pas, 200 images, limit 22.7 m/s, agressivite 0.89, 47 s reelles
+  run 435 : depart 2, 1000 pas, 200 images, limit 22.2 m/s, agressivite 0.54, 47 s reelles
+  run 436 : depart 3, 706 pas, 142 images, set 22.3 m/s, agressivite 0.7, 37 s reelles  [coupe : choc (44 m/s2) a t=16.1s]
+  run 437 : depart 1, 1000 pas, 200 images, limit 13.9 m/s, agressivite 0.98, 46 s reelles
+  run 438 : depart 1, 1000 pas, 200 images, limit 13.6 m/s, agressivite 0.97, 46 s reelles
+  run 439 : depart 0, 1000 pas, 200 images, limit 22.2 m/s, agressivite 0.64, 47 s reelles
+  run 440 : depart 0, 1000 pas, 200 images, set 17.9 m/s, agressivite 0.5, 46 s reelles
+  run 441 : depart 0, 1000 pas, 200 images, limit 21.7 m/s, agressivite 0.96, 47 s reelles
+  run 442 : depart 1, 1000 pas, 200 images, limit 17.4 m/s, agressivite 0.81, 48 s reelles
+  run 443 : depart 3, 1000 pas, 200 images, set 18.6 m/s, agressivite 0.67, 47 s reelles
+  run 444 : depart 2, 899 pas, 180 images, set 21.9 m/s, agressivite 0.94, 47 s reelles  [coupe : choc (43 m/s2) a t=20.0s]
+  run 445 : depart 1, 1000 pas, 200 images, set 13.1 m/s, agressivite 0.52, 46 s reelles
+  run 446 : depart 2, 349 pas, 70 images, set 20.5 m/s, agressivite 0.79, 27 s reelles  [coupe : voiture bloquee a t=11.0s]
+  run 447 : depart 0, 1000 pas, 200 images, limit 20.2 m/s, agressivite 0.51, 47 s reelles
+  run 448 : depart 2, 1000 pas, 200 images, set 15.0 m/s, agressivite 0.57, 47 s reelles
+  run 449 : depart 2, 1000 pas, 200 images, set 17.1 m/s, agressivite 0.79, 47 s reelles
+[collect] 392165 lignes
+Fin : 22/10/2026  4:31:15,98 

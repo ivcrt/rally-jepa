@@ -1,0 +1,301 @@
+test,composante,modele,horizon_s,rmse,ecart_type
+en distribution,vx,persistance (etat vrai),0.1,0.3216097,0.024259415
+en distribution,vx,persistance (etat vrai),0.2,0.6146309,0.048706178
+en distribution,vx,persistance (etat vrai),0.3,0.89152414,0.07243183
+en distribution,vx,persistance (etat vrai),0.4,1.151919,0.09560478
+en distribution,vx,persistance (etat vrai),0.5,1.3956671,0.117678754
+en distribution,vx,persistance (etat vrai),0.6,1.6231415,0.13853915
+en distribution,vx,persistance (etat vrai),0.7,1.8349329,0.15800767
+en distribution,vx,persistance (etat vrai),0.8,2.0321083,0.17642504
+en distribution,vx,persistance (etat vrai),0.9,2.2160296,0.19418825
+en distribution,vx,persistance (etat vrai),1.0,2.3879256,0.21155402
+en distribution,vx,"jepa : etat lu a t, fige",0.1,4.052213,0.21338317
+en distribution,vx,"jepa : etat lu a t, fige",0.2,4.055587,0.21342078
+en distribution,vx,"jepa : etat lu a t, fige",0.3,4.0639796,0.21344303
+en distribution,vx,"jepa : etat lu a t, fige",0.4,4.076709,0.2132908
+en distribution,vx,"jepa : etat lu a t, fige",0.5,4.0935607,0.2130007
+en distribution,vx,"jepa : etat lu a t, fige",0.6,4.1137476,0.212727
+en distribution,vx,"jepa : etat lu a t, fige",0.7,4.1364703,0.21253031
+en distribution,vx,"jepa : etat lu a t, fige",0.8,4.1611333,0.21249919
+en distribution,vx,"jepa : etat lu a t, fige",0.9,4.187176,0.21256112
+en distribution,vx,"jepa : etat lu a t, fige",1.0,4.2143264,0.21294796
+en distribution,vx,jepa : rollout latent,0.1,4.0453286,0.21133363
+en distribution,vx,jepa : rollout latent,0.2,4.0423727,0.20978533
+en distribution,vx,jepa : rollout latent,0.3,4.043822,0.20859562
+en distribution,vx,jepa : rollout latent,0.4,4.048505,0.20755523
+en distribution,vx,jepa : rollout latent,0.5,4.055906,0.20665242
+en distribution,vx,jepa : rollout latent,0.6,4.065087,0.2059508
+en distribution,vx,jepa : rollout latent,0.7,4.0752134,0.20538355
+en distribution,vx,jepa : rollout latent,0.8,4.0857897,0.20487045
+en distribution,vx,jepa : rollout latent,0.9,4.0964932,0.20455404
+en distribution,vx,jepa : rollout latent,1.0,4.1071634,0.20470873
+en distribution,vx,"recon : etat lu a t, fige",0.1,3.935419,0.19928014
+en distribution,vx,"recon : etat lu a t, fige",0.2,3.936667,0.20005326
+en distribution,vx,"recon : etat lu a t, fige",0.3,3.943306,0.20059787
+en distribution,vx,"recon : etat lu a t, fige",0.4,3.9553235,0.20061
+en distribution,vx,"recon : etat lu a t, fige",0.5,3.9724782,0.20042765
+en distribution,vx,"recon : etat lu a t, fige",0.6,3.994044,0.19986667
+en distribution,vx,"recon : etat lu a t, fige",0.7,4.0188875,0.19954842
+en distribution,vx,"recon : etat lu a t, fige",0.8,4.045907,0.19956653
+en distribution,vx,"recon : etat lu a t, fige",0.9,4.074435,0.19987115
+en distribution,vx,"recon : etat lu a t, fige",1.0,4.1038027,0.20063525
+en distribution,vx,recon : rollout latent,0.1,5.087882,0.79451245
+en distribution,vx,recon : rollout latent,0.2,7.3472,2.1155822
+en distribution,vx,recon : rollout latent,0.3,9.756534,3.268221
+en distribution,vx,recon : rollout latent,0.4,12.118083,4.276192
+en distribution,vx,recon : rollout latent,0.5,14.39433,5.1778035
+en distribution,vx,recon : rollout latent,0.6,16.586401,6.004269
+en distribution,vx,recon : rollout latent,0.7,18.70748,6.7796426
+en distribution,vx,recon : rollout latent,0.8,20.772526,7.524824
+en distribution,vx,recon : rollout latent,0.9,22.796602,8.257728
+en distribution,vx,recon : rollout latent,1.0,24.794018,8.991968
+en distribution,vy,persistance (etat vrai),0.1,0.133674,0.011610238
+en distribution,vy,persistance (etat vrai),0.2,0.21783407,0.021442475
+en distribution,vy,persistance (etat vrai),0.3,0.28165662,0.028727856
+en distribution,vy,persistance (etat vrai),0.4,0.32785577,0.03418546
+en distribution,vy,persistance (etat vrai),0.5,0.3606885,0.038430344
+en distribution,vy,persistance (etat vrai),0.6,0.38245487,0.041401435
+en distribution,vy,persistance (etat vrai),0.7,0.39538926,0.043109298
+en distribution,vy,persistance (etat vrai),0.8,0.40316024,0.043579593
+en distribution,vy,persistance (etat vrai),0.9,0.4072682,0.043564513
+en distribution,vy,persistance (etat vrai),1.0,0.40964705,0.043468352
+en distribution,vy,"jepa : etat lu a t, fige",0.1,0.30308178,0.03528633
+en distribution,vy,"jepa : etat lu a t, fige",0.2,0.30350697,0.035008587
+en distribution,vy,"jepa : etat lu a t, fige",0.3,0.30405825,0.034555446
+en distribution,vy,"jepa : etat lu a t, fige",0.4,0.30466563,0.034110244
+en distribution,vy,"jepa : etat lu a t, fige",0.5,0.30572468,0.033728845
+en distribution,vy,"jepa : etat lu a t, fige",0.6,0.30688,0.033525985
+en distribution,vy,"jepa : etat lu a t, fige",0.7,0.30771396,0.033385817
+en distribution,vy,"jepa : etat lu a t, fige",0.8,0.3083343,0.03317572
+en distribution,vy,"jepa : etat lu a t, fige",0.9,0.30869398,0.033009924
+en distribution,vy,"jepa : etat lu a t, fige",1.0,0.3089923,0.032689326
+en distribution,vy,jepa : rollout latent,0.1,0.30271965,0.035439752
+en distribution,vy,jepa : rollout latent,0.2,0.30269378,0.035287064
+en distribution,vy,jepa : rollout latent,0.3,0.30270806,0.03494508
+en distribution,vy,jepa : rollout latent,0.4,0.30267245,0.034606673
+en distribution,vy,jepa : rollout latent,0.5,0.30299202,0.03428976
+en distribution,vy,jepa : rollout latent,0.6,0.30342335,0.034134515
+en distribution,vy,jepa : rollout latent,0.7,0.30365062,0.034024425
+en distribution,vy,jepa : rollout latent,0.8,0.30379474,0.03386652
+en distribution,vy,jepa : rollout latent,0.9,0.3039545,0.033758253
+en distribution,vy,jepa : rollout latent,1.0,0.30415016,0.03350133
+en distribution,vy,"recon : etat lu a t, fige",0.1,0.3036788,0.034146544
+en distribution,vy,"recon : etat lu a t, fige",0.2,0.30432788,0.03386471
+en distribution,vy,"recon : etat lu a t, fige",0.3,0.30514717,0.03361637
+en distribution,vy,"recon : etat lu a t, fige",0.4,0.30589026,0.033438478
+en distribution,vy,"recon : etat lu a t, fige",0.5,0.30688906,0.03327385
+en distribution,vy,"recon : etat lu a t, fige",0.6,0.30773032,0.033363327
+en distribution,vy,"recon : etat lu a t, fige",0.7,0.3083009,0.03337979
+en distribution,vy,"recon : etat lu a t, fige",0.8,0.30868143,0.033312857
+en distribution,vy,"recon : etat lu a t, fige",0.9,0.30882606,0.03328372
+en distribution,vy,"recon : etat lu a t, fige",1.0,0.30886403,0.033096563
+en distribution,vy,recon : rollout latent,0.1,0.34007066,0.032200463
+en distribution,vy,recon : rollout latent,0.2,0.42172623,0.054201484
+en distribution,vy,recon : rollout latent,0.3,0.5182051,0.0856364
+en distribution,vy,recon : rollout latent,0.4,0.6177093,0.11673771
+en distribution,vy,recon : rollout latent,0.5,0.7164718,0.1458945
+en distribution,vy,recon : rollout latent,0.6,0.81245214,0.17369442
+en distribution,vy,recon : rollout latent,0.7,0.90540075,0.20082435
+en distribution,vy,recon : rollout latent,0.8,0.9956684,0.22750181
+en distribution,vy,recon : rollout latent,0.9,1.0838346,0.25357565
+en distribution,vy,recon : rollout latent,1.0,1.1706718,0.2791383
+en distribution,r,persistance (etat vrai),0.1,0.06880844,0.004765203
+en distribution,r,persistance (etat vrai),0.2,0.105173945,0.007898332
+en distribution,r,persistance (etat vrai),0.3,0.13491555,0.010301729
+en distribution,r,persistance (etat vrai),0.4,0.158692,0.012195391
+en distribution,r,persistance (etat vrai),0.5,0.17771949,0.013345044
+en distribution,r,persistance (etat vrai),0.6,0.19355337,0.014052214
+en distribution,r,persistance (etat vrai),0.7,0.20793417,0.014843264
+en distribution,r,persistance (etat vrai),0.8,0.22155812,0.01568799
+en distribution,r,persistance (etat vrai),0.9,0.23469684,0.016410714
+en distribution,r,persistance (etat vrai),1.0,0.2468591,0.017204229
+en distribution,r,"jepa : etat lu a t, fige",0.1,0.1961266,0.011170678
+en distribution,r,"jepa : etat lu a t, fige",0.2,0.19613662,0.011398736
+en distribution,r,"jepa : etat lu a t, fige",0.3,0.19683799,0.011689598
+en distribution,r,"jepa : etat lu a t, fige",0.4,0.1980835,0.011964074
+en distribution,r,"jepa : etat lu a t, fige",0.5,0.19953215,0.012107158
+en distribution,r,"jepa : etat lu a t, fige",0.6,0.20117597,0.012226315
+en distribution,r,"jepa : etat lu a t, fige",0.7,0.20287228,0.012386252
+en distribution,r,"jepa : etat lu a t, fige",0.8,0.20473936,0.012581847
+en distribution,r,"jepa : etat lu a t, fige",0.9,0.20657475,0.012708562
+en distribution,r,"jepa : etat lu a t, fige",1.0,0.20831051,0.012755833
+en distribution,r,jepa : rollout latent,0.1,0.19543749,0.011103862
+en distribution,r,jepa : rollout latent,0.2,0.19464788,0.011330968
+en distribution,r,jepa : rollout latent,0.3,0.19433472,0.011651359
+en distribution,r,jepa : rollout latent,0.4,0.19435169,0.011976587
+en distribution,r,jepa : rollout latent,0.5,0.19440207,0.012201249
+en distribution,r,jepa : rollout latent,0.6,0.19453007,0.012412449
+en distribution,r,jepa : rollout latent,0.7,0.1946177,0.012711632
+en distribution,r,jepa : rollout latent,0.8,0.1948315,0.013009663
+en distribution,r,jepa : rollout latent,0.9,0.19503227,0.013278325
+en distribution,r,jepa : rollout latent,1.0,0.19520512,0.013501003
+en distribution,r,"recon : etat lu a t, fige",0.1,0.19840397,0.010457335
+en distribution,r,"recon : etat lu a t, fige",0.2,0.19861603,0.010550366
+en distribution,r,"recon : etat lu a t, fige",0.3,0.19952092,0.010635483
+en distribution,r,"recon : etat lu a t, fige",0.4,0.20102115,0.0106406035
+en distribution,r,"recon : etat lu a t, fige",0.5,0.2026438,0.010546657
+en distribution,r,"recon : etat lu a t, fige",0.6,0.2044925,0.010581554
+en distribution,r,"recon : etat lu a t, fige",0.7,0.20634481,0.010641817
+en distribution,r,"recon : etat lu a t, fige",0.8,0.20818897,0.010687517
+en distribution,r,"recon : etat lu a t, fige",0.9,0.20987336,0.010746089
+en distribution,r,"recon : etat lu a t, fige",1.0,0.21129575,0.010742562
+en distribution,r,recon : rollout latent,0.1,0.2463884,0.03685443
+en distribution,r,recon : rollout latent,0.2,0.34706414,0.08236427
+en distribution,r,recon : rollout latent,0.3,0.45897728,0.12182054
+en distribution,r,recon : rollout latent,0.4,0.5713848,0.15567489
+en distribution,r,recon : rollout latent,0.5,0.68143666,0.18557033
+en distribution,r,recon : rollout latent,0.6,0.7884545,0.21282199
+en distribution,r,recon : rollout latent,0.7,0.8921881,0.23801465
+en distribution,r,recon : rollout latent,0.8,0.99263763,0.26168442
+en distribution,r,recon : rollout latent,0.9,1.0898379,0.28422013
+en distribution,r,recon : rollout latent,1.0,1.1841943,0.30609325
+glisse,vx,persistance (etat vrai),0.1,0.34817737,0.0
+glisse,vx,persistance (etat vrai),0.2,0.6693932,0.0
+glisse,vx,persistance (etat vrai),0.3,0.9863043,0.0
+glisse,vx,persistance (etat vrai),0.4,1.2980483,0.0
+glisse,vx,persistance (etat vrai),0.5,1.6005396,0.0
+glisse,vx,persistance (etat vrai),0.6,1.8904407,1.1920929e-07
+glisse,vx,persistance (etat vrai),0.7,2.167313,0.0
+glisse,vx,persistance (etat vrai),0.8,2.431654,0.0
+glisse,vx,persistance (etat vrai),0.9,2.6838286,0.0
+glisse,vx,persistance (etat vrai),1.0,2.9246216,0.0
+glisse,vx,"jepa : etat lu a t, fige",0.1,4.003228,0.051724046
+glisse,vx,"jepa : etat lu a t, fige",0.2,4.0202565,0.051594615
+glisse,vx,"jepa : etat lu a t, fige",0.3,4.0527034,0.051328953
+glisse,vx,"jepa : etat lu a t, fige",0.4,4.099626,0.050902493
+glisse,vx,"jepa : etat lu a t, fige",0.5,4.156561,0.050440427
+glisse,vx,"jepa : etat lu a t, fige",0.6,4.2189455,0.049708683
+glisse,vx,"jepa : etat lu a t, fige",0.7,4.284531,0.04861376
+glisse,vx,"jepa : etat lu a t, fige",0.8,4.352285,0.04726341
+glisse,vx,"jepa : etat lu a t, fige",0.9,4.42188,0.04575333
+glisse,vx,"jepa : etat lu a t, fige",1.0,4.4939795,0.044267654
+glisse,vx,jepa : rollout latent,0.1,3.999353,0.049477756
+glisse,vx,jepa : rollout latent,0.2,4.0131593,0.047604628
+glisse,vx,jepa : rollout latent,0.3,4.04164,0.04657538
+glisse,vx,jepa : rollout latent,0.4,4.0829425,0.046526246
+glisse,vx,jepa : rollout latent,0.5,4.1323957,0.047462802
+glisse,vx,jepa : rollout latent,0.6,4.1856184,0.04909833
+glisse,vx,jepa : rollout latent,0.7,4.2402163,0.051102456
+glisse,vx,jepa : rollout latent,0.8,4.29512,0.053382616
+glisse,vx,jepa : rollout latent,0.9,4.3498683,0.055814598
+glisse,vx,jepa : rollout latent,1.0,4.4054346,0.0583939
+glisse,vx,"recon : etat lu a t, fige",0.1,3.8992608,0.027898071
+glisse,vx,"recon : etat lu a t, fige",0.2,3.911766,0.027688824
+glisse,vx,"recon : etat lu a t, fige",0.3,3.9409041,0.027461767
+glisse,vx,"recon : etat lu a t, fige",0.4,3.9858315,0.027199281
+glisse,vx,"recon : etat lu a t, fige",0.5,4.0420895,0.026842088
+glisse,vx,"recon : etat lu a t, fige",0.6,4.1047325,0.026409233
+glisse,vx,"recon : etat lu a t, fige",0.7,4.171245,0.025864663
+glisse,vx,"recon : etat lu a t, fige",0.8,4.2403836,0.025385706
+glisse,vx,"recon : etat lu a t, fige",0.9,4.3115435,0.02494682
+glisse,vx,"recon : etat lu a t, fige",1.0,4.3851705,0.024622772
+glisse,vx,recon : rollout latent,0.1,5.190716,1.0416054
+glisse,vx,recon : rollout latent,0.2,7.4514017,2.317737
+glisse,vx,recon : rollout latent,0.3,9.831326,3.4190547
+glisse,vx,recon : rollout latent,0.4,12.151523,4.3794503
+glisse,vx,recon : rollout latent,0.5,14.377561,5.239371
+glisse,vx,recon : rollout latent,0.6,16.51355,6.028276
+glisse,vx,recon : rollout latent,0.7,18.57307,6.768174
+glisse,vx,recon : rollout latent,0.8,20.570982,7.477678
+glisse,vx,recon : rollout latent,0.9,22.523554,8.173198
+glisse,vx,recon : rollout latent,1.0,24.445585,8.868192
+glisse,vy,persistance (etat vrai),0.1,0.24229601,1.4901161e-08
+glisse,vy,persistance (etat vrai),0.2,0.38162833,0.0
+glisse,vy,persistance (etat vrai),0.3,0.48558158,2.9802322e-08
+glisse,vy,persistance (etat vrai),0.4,0.56799895,0.0
+glisse,vy,persistance (etat vrai),0.5,0.6278247,0.0
+glisse,vy,persistance (etat vrai),0.6,0.6637725,0.0
+glisse,vy,persistance (etat vrai),0.7,0.68016607,5.9604645e-08
+glisse,vy,persistance (etat vrai),0.8,0.68503416,5.9604645e-08
+glisse,vy,persistance (etat vrai),0.9,0.68275833,0.0
+glisse,vy,persistance (etat vrai),1.0,0.6796966,0.0
+glisse,vy,"jepa : etat lu a t, fige",0.1,0.5113265,0.0010926431
+glisse,vy,"jepa : etat lu a t, fige",0.2,0.51582944,0.0010501988
+glisse,vy,"jepa : etat lu a t, fige",0.3,0.5165459,0.0010080634
+glisse,vy,"jepa : etat lu a t, fige",0.4,0.5165785,0.0009731216
+glisse,vy,"jepa : etat lu a t, fige",0.5,0.51845336,0.000970685
+glisse,vy,"jepa : etat lu a t, fige",0.6,0.5183968,0.0009695845
+glisse,vy,"jepa : etat lu a t, fige",0.7,0.51787835,0.0009716629
+glisse,vy,"jepa : etat lu a t, fige",0.8,0.5175342,0.0009467872
+glisse,vy,"jepa : etat lu a t, fige",0.9,0.51666915,0.00090944883
+glisse,vy,"jepa : etat lu a t, fige",1.0,0.5163228,0.00092528004
+glisse,vy,jepa : rollout latent,0.1,0.5108287,0.0011219739
+glisse,vy,jepa : rollout latent,0.2,0.51471645,0.0011282121
+glisse,vy,jepa : rollout latent,0.3,0.5146998,0.001154388
+glisse,vy,jepa : rollout latent,0.4,0.51400745,0.0011771773
+glisse,vy,jepa : rollout latent,0.5,0.5151793,0.0012248601
+glisse,vy,jepa : rollout latent,0.6,0.5144386,0.0013025436
+glisse,vy,jepa : rollout latent,0.7,0.5133334,0.0013746162
+glisse,vy,jepa : rollout latent,0.8,0.51243025,0.0014052645
+glisse,vy,jepa : rollout latent,0.9,0.51106966,0.0014169967
+glisse,vy,jepa : rollout latent,1.0,0.5103222,0.0014015877
+glisse,vy,"recon : etat lu a t, fige",0.1,0.5105516,0.0013460353
+glisse,vy,"recon : etat lu a t, fige",0.2,0.51501954,0.0011584489
+glisse,vy,"recon : etat lu a t, fige",0.3,0.5159492,0.0011821245
+glisse,vy,"recon : etat lu a t, fige",0.4,0.51617295,0.0013855544
+glisse,vy,"recon : etat lu a t, fige",0.5,0.51839715,0.0016622873
+glisse,vy,"recon : etat lu a t, fige",0.6,0.51856935,0.0018207118
+glisse,vy,"recon : etat lu a t, fige",0.7,0.51816523,0.0018413966
+glisse,vy,"recon : etat lu a t, fige",0.8,0.51778543,0.0017828591
+glisse,vy,"recon : etat lu a t, fige",0.9,0.51664793,0.0016185257
+glisse,vy,"recon : etat lu a t, fige",1.0,0.515944,0.0014625222
+glisse,vy,recon : rollout latent,0.1,0.5318918,0.008376113
+glisse,vy,recon : rollout latent,0.2,0.58730114,0.028161207
+glisse,vy,recon : rollout latent,0.3,0.6548444,0.053105794
+glisse,vy,recon : rollout latent,0.4,0.73010683,0.0791672
+glisse,vy,recon : rollout latent,0.5,0.8102516,0.105085544
+glisse,vy,recon : rollout latent,0.6,0.8899025,0.13057008
+glisse,vy,recon : rollout latent,0.7,0.96930254,0.15531224
+glisse,vy,recon : rollout latent,0.8,1.0484719,0.17960736
+glisse,vy,recon : rollout latent,0.9,1.1261148,0.20371276
+glisse,vy,recon : rollout latent,1.0,1.2029834,0.22758007
+glisse,r,persistance (etat vrai),0.1,0.0904686,0.0
+glisse,r,persistance (etat vrai),0.2,0.13332501,1.4901161e-08
+glisse,r,persistance (etat vrai),0.3,0.16519167,0.0
+glisse,r,persistance (etat vrai),0.4,0.1903911,0.0
+glisse,r,persistance (etat vrai),0.5,0.21144441,1.4901161e-08
+glisse,r,persistance (etat vrai),0.6,0.22656909,2.9802322e-08
+glisse,r,persistance (etat vrai),0.7,0.2362802,0.0
+glisse,r,persistance (etat vrai),0.8,0.24351342,1.4901161e-08
+glisse,r,persistance (etat vrai),0.9,0.25015146,2.9802322e-08
+glisse,r,persistance (etat vrai),1.0,0.25560063,2.9802322e-08
+glisse,r,"jepa : etat lu a t, fige",0.1,0.19834684,0.0018877165
+glisse,r,"jepa : etat lu a t, fige",0.2,0.19898,0.0018943097
+glisse,r,"jepa : etat lu a t, fige",0.3,0.19918266,0.0017956035
+glisse,r,"jepa : etat lu a t, fige",0.4,0.20001893,0.001652296
+glisse,r,"jepa : etat lu a t, fige",0.5,0.20083897,0.0015802565
+glisse,r,"jepa : etat lu a t, fige",0.6,0.20156452,0.0015533373
+glisse,r,"jepa : etat lu a t, fige",0.7,0.20240363,0.0015181397
+glisse,r,"jepa : etat lu a t, fige",0.8,0.20362735,0.001449366
+glisse,r,"jepa : etat lu a t, fige",0.9,0.20478883,0.0013975729
+glisse,r,"jepa : etat lu a t, fige",1.0,0.20608993,0.0013617321
+glisse,r,jepa : rollout latent,0.1,0.19748777,0.0018753783
+glisse,r,jepa : rollout latent,0.2,0.19725105,0.0018828515
+glisse,r,jepa : rollout latent,0.3,0.19645195,0.0018332786
+glisse,r,jepa : rollout latent,0.4,0.19615488,0.0017922625
+glisse,r,jepa : rollout latent,0.5,0.1957429,0.0018153464
+glisse,r,jepa : rollout latent,0.6,0.19502972,0.0017974047
+glisse,r,jepa : rollout latent,0.7,0.19420066,0.0017389453
+glisse,r,jepa : rollout latent,0.8,0.19358386,0.0016549175
+glisse,r,jepa : rollout latent,0.9,0.19292414,0.0016466503
+glisse,r,jepa : rollout latent,1.0,0.19249305,0.0016568186
+glisse,r,"recon : etat lu a t, fige",0.1,0.1975123,0.0014154052
+glisse,r,"recon : etat lu a t, fige",0.2,0.1980586,0.0013837802
+glisse,r,"recon : etat lu a t, fige",0.3,0.19834739,0.001382962
+glisse,r,"recon : etat lu a t, fige",0.4,0.19948703,0.0013670038
+glisse,r,"recon : etat lu a t, fige",0.5,0.20084977,0.0013732929
+glisse,r,"recon : etat lu a t, fige",0.6,0.20231852,0.0014143201
+glisse,r,"recon : etat lu a t, fige",0.7,0.20376456,0.0014900436
+glisse,r,"recon : etat lu a t, fige",0.8,0.20523743,0.0015096784
+glisse,r,"recon : etat lu a t, fige",0.9,0.20637438,0.001535469
+glisse,r,"recon : etat lu a t, fige",1.0,0.20742455,0.0016243058
+glisse,r,recon : rollout latent,0.1,0.2431571,0.03319258
+glisse,r,recon : rollout latent,0.2,0.3425746,0.0774444
+glisse,r,recon : rollout latent,0.3,0.45266882,0.115968205
+glisse,r,recon : rollout latent,0.4,0.5628828,0.14944044
+glisse,r,recon : rollout latent,0.5,0.6701223,0.17906755
+glisse,r,recon : rollout latent,0.6,0.7739549,0.20594832
+glisse,r,recon : rollout latent,0.7,0.87405026,0.2310494
+glisse,r,recon : rollout latent,0.8,0.9706105,0.25478005
+glisse,r,recon : rollout latent,0.9,1.0640758,0.27759063
+glisse,r,recon : rollout latent,1.0,1.1550441,0.2996842

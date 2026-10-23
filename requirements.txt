@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+pillow
+torch>=2.0          # GPU recommended for the camera experiments (CUDA build)
+beamngpy==1.36      # data collection only; must match BeamNG.tech 0.39
