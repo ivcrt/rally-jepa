@@ -187,6 +187,15 @@ rate: testing JEPA vs. pixel prediction properly would need richer motion
 information (higher resolution or frame rate, optical flow), i.e. a new
 collection.
 
+## How this was built
+
+I used Claude (Anthropic) as a coding assistant throughout the project. I chose
+the research question, collected the data in BeamNG.tech, designed the
+comparisons (linear and MLP probes, the supervised upper bound, the physical
+and learned baselines) and interpreted the results, for example the diagnosis
+that speed is not recoverable from the camera frames. All numbers in this
+README come from runs whose logs and result tables are in `results/`.
+
 ## Repository layout
 
 ```
